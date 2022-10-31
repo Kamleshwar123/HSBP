@@ -10,8 +10,8 @@ export default function Home() {
       <link rel="icon" href="/favicon.ico" />
     </Head>
 <Layout
-   title="Top Beauty Parlours"
-   description="Top Beauty"
+   title="Best Beauty parlor service at home, beautician, makeup artist in Noida, Kolakta, Pune - HSBP"
+   description="HSBP is one of the best beauty parlor service provide bridal makeup, facial, full body, leg, arm wax, hairdo, saree draping at home in Noida, Kolkata, Pune, Lucknow, Delhi"
 >
 
 </Layout>
