@@ -1,6 +1,7 @@
 import "../styles/globals.css";
-import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.css';
 import"../styles/style.css";
+import"../styles/responsive.css"
 import React from "react";
 import App from "next/app";
 import Head from "next/head";
