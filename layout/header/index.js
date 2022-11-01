@@ -1,8 +1,9 @@
 import Sidebar from "./sidebar";
+import ThemeProvider from "@mui/styles";
 import Link from "next/link";
-import { makeStyles } from '@mui/styles';
+import { makeStyles } from "@mui/styles";
 import { Container } from '@mui/material'
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((ThemeProvider) => ({
     header: {
         background: 'red',
         color: 'black',
@@ -22,14 +23,14 @@ const useStyles = makeStyles(() => ({
         display: 'flex',
         alignItems: 'center',
     },
-    img: {
-        width: "65%",
+    cartImg: {
+        // width: "65%",
         height: "auto",
       },
 }
 ));
 export default function Header() {
-    const classes = useStyles();
+    const classes = useStyles(ThemeProvider);
     return (
         <>
             <section className={classes.headerSection}>
@@ -41,7 +42,8 @@ export default function Header() {
                                 <img
                                     src='/././assets/images/logo.webp'
                                     alt='HSBP Logo'
-                                    className={classes.img}
+                                    width={'181'}
+                                    height={'63'}
                                 />
                             </Link>
                         </div>
@@ -49,9 +51,8 @@ export default function Header() {
                             <img
                             src={'/././assets/images/cart.png'}
                             alt='HSBP Cart'
-                            className={classes.img}
-                            width={'100%'}
-                            height={'100%'}
+                            width={'34'}
+                            height={'40'}
                             />
                         </div>
                     </Container>
