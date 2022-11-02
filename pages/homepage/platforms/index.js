@@ -1,5 +1,5 @@
 import PlatformsList from "./PlatformsList";
-import PlatHeading from "./PlatformHead"
+import PlatHeading from "./PlatformHead";
 const PlatForms = () =>{
     return(
         <>
