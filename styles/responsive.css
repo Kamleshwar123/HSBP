@@ -28,4 +28,47 @@
         width: auto;
         margin: 10px;
     }
+    .home-banner ul {
+        left: 40%;
+        padding-left: 0px;
+
+}
+.main_page {
+    padding-top: 60px;
+  }
+  .slick-prev {
+    left: 2%;
+    z-index: 99;
+}
+.services-head {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.services-head h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.services-head p {
+    font-size: 15px;
+    padding-top: 0px;
+}
+.ser-card-1,.ser-card-2,.ser-card-3,.ser-card-4,.ser-card-5  {
+    height: 370px;
+    margin-bottom: 30px;
+
+}
+.sec-row {
+    width: 100%;
+    margin-top: 0px !important;
+}
+section.services {
+    margin-bottom: 10px;
+}
+.pkg-bann {
+        background-size: cover;
+        margin-top: 50px;
+}
+.pkgs-list {
+    padding: 40px 0px;
+}
 }

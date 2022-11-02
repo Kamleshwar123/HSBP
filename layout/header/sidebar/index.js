@@ -10,10 +10,11 @@ class Sidebar extends React.Component {
   }
   render () {
     return (
-      <Menu>
-        <Link href={'/'} id='home'className='menu-item'>Home</Link>
-       <Link href={'/about'} id='about' className='menu-item'>About</Link>
-      </Menu>
+      <>
+         <Menu bodyClassName={ "overlay-open" }>
+        <Link href={'/'} id='home' className='menu-item'>Home</Link>
+        <Link href={'/about'} id='about' className='menu-item'>About</Link>
+      </Menu></>
     );
   }
 }

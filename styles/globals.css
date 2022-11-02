@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
+#outer-container {
+  height: 100%;
+}
 body {
   background-color: #fff;
   padding: 0px;
@@ -14,7 +17,7 @@ body {
   --breakpoint-xl: 1200px;
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
   color: #573191;
 }
 

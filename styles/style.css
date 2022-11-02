@@ -71,6 +71,9 @@ width: 100%;
     position: fixed;
     width: 100%;
 }
+.overlay-open{
+    overflow: hidden;
+}
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;
@@ -137,9 +140,13 @@ width: 100%;
   /* Styling of overlay */
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
+    position: fixed;
   }
   .home-banner-img img{
     width: 100%;
+}
+#page-wrap{
+  height: 100%;
 }
 .main_page {
   padding-top: 80px;
@@ -172,7 +179,7 @@ li.slick-active{
 }
 .slick-prev{
   left: 25px;
-  z-index: 999;
+  z-index: 99;
 }
 .home-banner ul{  
   position: absolute;
