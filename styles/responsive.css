@@ -1,23 +1,29 @@
 @media only screen and (max-width: 600px) {
-    .bm-burger-button{
+    .bm-burger-button {
         left: 25px;
-    top: 17px;
-    width: 30px;
-    height: 25px;
+        top: 17px;
+        width: 30px;
+        height: 25px;
     }
+
     .header-nav {
         height: 60px;
     }
-    .app-icon,.app-icon p{
+
+    .app-icon,
+    .app-icon p {
         display: none;
     }
+
     .logo {
         margin-left: 20%;
     }
+
     .logo img {
         width: 60%;
         margin-left: 0px;
     }
+
     .header-nav-right {
         width: auto;
         margin: 10px;

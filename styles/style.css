@@ -152,17 +152,27 @@ width: 100%;
   display: inline-flex;
 }
 .slick-dots button{
-  font-size: 0px;
-  background-color: #000;
+  font-size: 0px !important;
+  background-color: #000 !important;
   opacity: 0.25;
-  width: 10px;
-  height: 10px;
-  padding: 0;
+  width: 10px !important;
+  height: 10px !important;
+  padding: 0 !important;
   border-radius: 50%;
-  border: 0px;
+  border: 0px !important;
 }
 li.slick-active{
   background: #000;
+}
+.slick-dots li button:before{
+  opacity: 0;
+}
+.slick-dots{
+  bottom: 20px;
+}
+.slick-prev{
+  left: 25px;
+  z-index: 999;
 }
 .home-banner ul{  
   position: absolute;
