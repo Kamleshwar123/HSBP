@@ -1,4 +1,4 @@
-import next from "next"
+
 const PlatHeading = () => {
     return (
         <div className='services-head'>
