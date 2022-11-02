@@ -1,4 +1,4 @@
-import next from 'next';
+
 import Slider from 'react-slick';
 import Link from "next/link";
 
@@ -16,6 +16,7 @@ export default function BannerSlider() {
   return (
     <Slider {...settings}>
       <div className='home-banner-img'>
+    
       <img src={"assets/images/banner_1.webp"} alt="banner-1" height={'100%'} width={'100%'} className='d-none d-sm-block' />
         <img src={"assets/images/banner_1_mob.webp"} alt="banner-1" height={'100%'} width={'100%'} className='d-block d-sm-none' />
         <div className='bann-con d-none d-sm-block'>
@@ -25,10 +26,8 @@ export default function BannerSlider() {
           <Link href={'/'} className="book-btn1">BOOK NOW</Link>
           </div>
         </div>
-
       </div>
       <div className='home-banner-img'>
-
         <img src={"assets/images/banner_2_mob.webp"} alt="banner-2" height={'100%'} width={'100%'} className='d-block d-sm-none' />
         <img src={"assets/images/banner_2.webp"} alt="banner-2" height={'100%'} width={'100%'} className='d-none d-sm-block' /> 
         <div className='bann-con d-none d-sm-block'>
@@ -37,7 +36,7 @@ export default function BannerSlider() {
           </div>
         </div>
       </div>
-      <div className='home-banner-img'>
+      <div className='home-banner-img'>  
         <img src={"assets/images/banner_3_mob.webp"} alt="banner-3" height={'100%'} width={'100%'} className='d-block d-sm-none' />
         <img src={"assets/images/banner_3.webp"} alt="banner-3" height={'100%'} width={'100%'} className='d-none d-sm-block' />
       </div>

@@ -141,7 +141,7 @@ width: 100%;
   .home-banner-img img{
     width: 100%;
 }
-.home_page {
+.main_page {
   padding-top: 80px;
 }
 .slick-dots li {
@@ -164,7 +164,7 @@ width: 100%;
 li.slick-active{
   background: #000;
 }
-.home-banner ul{
+.home-banner ul{  
   position: absolute;
   bottom: 0px;
 }
@@ -308,7 +308,7 @@ cursor: pointer;
   height: auto;
 }
 .pkg-bann{
-  /* background-image: url('../../../public/assets/images/packg-bg.webp'); */
+  background-image: url('../public/assets/images/service-bg.webp');
   background-size: contain;
   position: relative;
 }
@@ -396,13 +396,13 @@ cursor: pointer;
   width: 100%;
 }
 .service-list-bg{
-  /* background-image: url('../../../public/assets/images/service-list-bg.webp'); */
+  background-image: url('../public/assets/images/service-list-bg.webp');
   background-size: cover;
   position: relative;
   padding: 25px 0px;
 }
 .service-bg{
-  /* background-image: url('../../../public/assets/images/service-bg.webp'); */
+  background-image: url('../public/assets/images/service-bg.webp');
   background-size: cover;
   width: 80%;
   margin: 10px auto;

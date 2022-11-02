@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layout from '../layout'
-import BannerSlider from './Banner'
+import HomePage from './homepage'
 export default function Home() {
   return (
     
@@ -14,11 +14,9 @@ export default function Home() {
    title="Best Beauty parlor service at home, beautician, makeup artist in Noida, Kolakta, Pune - HSBP"
    description="HSBP is one of the best beauty parlor service provide bridal makeup, facial, full body, leg, arm wax, hairdo, saree draping at home in Noida, Kolkata, Pune, Lucknow, Delhi"
 >
-<section className='home_page'>
-            <div className='home-banner'>
-                <BannerSlider />
-            </div>
-        </section>
+  <section className='main_page'>
+<HomePage />
+</section>
 </Layout>
     </>
   
