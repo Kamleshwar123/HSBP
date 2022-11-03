@@ -325,7 +325,7 @@ cursor: pointer;
   height: auto;
 }
 .pkg-bann{
-  background-image: url('../public/assets/images/service-bg.webp');
+  background-image: url('../public/assets/images/packg-bg.webp');
   background-size: contain;
   position: relative;
 }
