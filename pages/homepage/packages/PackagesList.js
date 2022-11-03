@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 const PackageList = (props) => {
     return (
         <>
@@ -24,7 +25,7 @@ const PackageList = (props) => {
                         <div className="row">
                             <div className="col-6">
                                 <div className='ban-btn1 pkg-btn'>
-                           <p>hello</p>
+                                <Link href={'/'} className="book-btn1 pkg-book-btn">BOOK NOW </Link>
                                 </div>
                             </div>
                             <div className="col-6">

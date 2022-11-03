@@ -1,7 +1,7 @@
 const PlatformsList = () => {
   return (
     <>
-    <section className='home_page'>
+    <section className='services'>
       <div className="container">
             <div className='home-banner'>
     <div className='row'>
