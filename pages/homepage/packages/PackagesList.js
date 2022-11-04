@@ -7,7 +7,7 @@ const PackageList = (props) => {
                 <div className="pkg-bx">
                     <div className="pkg-con">
                         <div className="pkg-img">
-                            <img src={props.pkgimg} />
+                            <img src={props.pkgimg} alt="package image" height={"100%"} width={"100%"}/>
                             <div className="pkg-nme">
                                 <h1>{props.pkgnme}</h1>
                             </div>

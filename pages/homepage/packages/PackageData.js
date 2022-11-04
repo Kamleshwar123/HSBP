@@ -1,6 +1,8 @@
 import React from "react";
 import PackageList from "./PackagesList";
 import Link from "next/link";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 function PackageListData() {
     const Cdata = [
         {
@@ -83,7 +85,7 @@ function PackageListData() {
                     })}
                 </div>
                 <div className="pkg-l-more">
-                <Link href={'/'} className="book-btn1 pkg-book-btn">BOOK NOW </Link>
+                <Link href={'/'} className="book-btn1 pkg-book-btn">BOOK NOW <FontAwesomeIcon icon={faArrowRight} /></Link>
                 </div>
             </div>
             </section>
