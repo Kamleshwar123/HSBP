@@ -1,11 +1,19 @@
 import SalonHead from "./salonHead";
 import SalonList from "./salonList";
+import SalonSearch from './salonSearch';
 const Salon = () => {
     return (
-      <><SalonHead />
-    <SalonList />
-      </>
+        <><SalonHead />
+            <section className="salon-section">
+                <div className="container">
+                    <div className="salon-section-bg">
+                    <SalonSearch />
+                        <SalonList />
+                    </div>
+                </div>
+            </section>
+        </>
     )
-  }
-  
-  export default Salon
+}
+
+export default Salon
