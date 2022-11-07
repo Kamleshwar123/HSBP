@@ -7,12 +7,11 @@ const BookAppointmentData = () => {
     <div className='container'>
       <div className='bookappoint_home'>
         <Image
-          src={SalonImage}
-          alt={"appoint"}
-          width={"100%"}
-          height={"100%"}
-          className={'bookappoint_home_bg'}
-        />
+      src={SalonImage}
+      alt={"appoint"}
+      width={"100%"}
+      height={"100%"}
+    />
         <div className='bookappoint_con'>
           <h1>BOOK AN APPOINTMENT</h1>
           <p>We are happy to serve</p>

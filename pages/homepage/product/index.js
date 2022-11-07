@@ -5,7 +5,12 @@ const Products = () =>{
     return(
         <>
       <ProdHeading />
+      <div className="container">`
+      <div className="row">
       <ProductCard />
+      </div>
+      </div>
+   
         </>
     )
 }

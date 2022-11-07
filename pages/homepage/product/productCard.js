@@ -1,17 +1,23 @@
-
-
+import React, { useState } from "react";
 const ProductCard = () => {
-  return (
-    <>
-<div className="card">
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</>
-  )
+    const [active, setActive] = useState(false);
+    const handleClick = () => {
+        setActive(!active);
+    };
+    return (
+        <>
+            <div className="col-4">
+                <div className="card pro-card">
+                    <div className="card-body">
+                        <i className="fa fa-heart"
+                            onClick={handleClick}
+                            style={{ color: active ? "#8b337b" : "#ddd" }}
+                        ></i>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
 }
 
 export default ProductCard

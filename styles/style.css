@@ -553,7 +553,7 @@ overflow: hidden;
   position: absolute;
   width: auto;
   text-align: right;
-  z-index: 999;
+  z-index: 99;
   top: 4px;
   right: -12px;
 }
@@ -670,5 +670,16 @@ width: 40px;
 .salon-header a{
  color: #000;
  text-decoration: none;
+}
+.pro-card{
+  border: 1px solid #DCDCDC;
+  border-radius: unset;
+  background: #fff;
+  padding: 10px;
+}
+.pro-card i {
+  font-size: 30px;
+  color: #dcdcdc;
+  cursor: pointer;
 }
 
