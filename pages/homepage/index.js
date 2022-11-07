@@ -4,6 +4,7 @@ import Packages from './packages';
 import Services from './services';
 import BookAppointment from './bookAppointment';
 import HomeSalon from './salon';
+import Products from './product';
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Services />
       <BookAppointment />
       <HomeSalon />
+      <Products />
       </>
   )
 }

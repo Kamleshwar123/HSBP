@@ -1,10 +1,18 @@
 import React from 'react'
 import Link from 'next/link'
+import SalonImage from '../../../../public/assets/images/appoint-image.webp'
+import Image from 'next/image'
 const BookAppointmentData = () => {
   return (
     <div className='container'>
       <div className='bookappoint_home'>
-        <img src={'assets/images/appoint-image.webp'} alt={'appoint'} width={'100%'} height={'100%'} />
+        <Image
+          src={SalonImage}
+          alt={"appoint"}
+          width={"100%"}
+          height={"100%"}
+          className={'bookappoint_home_bg'}
+        />
         <div className='bookappoint_con'>
           <h1>BOOK AN APPOINTMENT</h1>
           <p>We are happy to serve</p>
