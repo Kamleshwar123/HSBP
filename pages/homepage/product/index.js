@@ -1,16 +1,16 @@
 import React from "react"
 import ProdHeading from "../product/productHead"
-import ProductCard from "./productCard"
-const Products = () =>{
-    return(
+import ProductList from "./productCardList"
+const Products = () => {
+    return (
         <>
-      <ProdHeading />
-      <div className="container">`
-      <div className="row">
-      <ProductCard />
-      </div>
-      </div>
-   
+            <ProdHeading />
+            <div className="container">
+                <div className="row">
+                    <ProductList />
+                </div>
+            </div>
+
         </>
     )
 }

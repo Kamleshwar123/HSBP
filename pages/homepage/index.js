@@ -5,10 +5,13 @@ import Services from './services';
 import BookAppointment from './bookAppointment';
 import HomeSalon from './salon';
 import Products from './product';
+import Franchises from './franchises';
+import Institute from './institute'
+import Testimonials from './testimonials';
 
 const HomePage = () => {
   return (
-      <>
+    <>
       <BannerSlider />
       <PlatForms />
       <Packages />
@@ -16,7 +19,10 @@ const HomePage = () => {
       <BookAppointment />
       <HomeSalon />
       <Products />
-      </>
+      <Franchises />
+      <Institute />
+    <Testimonials />
+    </>
   )
 }
 
