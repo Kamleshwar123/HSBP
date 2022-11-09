@@ -8,6 +8,7 @@ import Products from './product';
 import Franchises from './franchises';
 import Institute from './institute'
 import Testimonials from './testimonials';
+import HsbpApp from './hsbpApp';
 
 const HomePage = () => {
   return (
@@ -21,7 +22,8 @@ const HomePage = () => {
       <Products />
       <Franchises />
       <Institute />
-    <Testimonials />
+      <Testimonials />
+      <HsbpApp />
     </>
   )
 }
