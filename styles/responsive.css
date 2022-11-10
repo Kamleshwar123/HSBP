@@ -83,4 +83,30 @@ font-size: 10px;
 width: 205px;
 left: 65px;
   }  
+  .pkg-btn{
+    padding: 5px 10px;
+  }
+  .about-franch {
+width: 315px;
 } 
+.about-insti h1 {
+    font-size: 30px;
+}
+.about-insti p {
+    font-size: 20px;
+}
+.logo img {
+    width: 75%;
+    margin-left: 60%;
+}
+.bann-con h1 {
+    font-size: 25px;
+    color: #2A3133;
+    padding: 8px 0px;
+}
+.bann-con h2 {
+    font-size: 25px;
+    color: #2A3133;
+    padding: 8px 0px;
+}
+}

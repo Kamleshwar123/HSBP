@@ -60,7 +60,7 @@ export default function SalonList(props) {
                       width={'100%'}
                       className={'salon-call-icon'}
                     />
-                    <p>Book Appointment</p>
+                    <p>Book Now</p>
                   </Link>
                 </div>
               </div>
