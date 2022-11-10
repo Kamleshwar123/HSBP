@@ -79,6 +79,8 @@ section.services {
 and (max-device-width : 1400px)   
 { 
   .test-content{
-font-size: 13px;
+font-size: 10px;
+width: 205px;
+left: 65px;
   }  
 } 
