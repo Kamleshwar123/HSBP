@@ -1,0 +1,42 @@
+[
+        {
+
+            "to": "/",
+            "name": "About Us"
+        },
+        {
+
+            "to": "/",
+            "name": "Nearby Salons"
+        },
+        {
+            "to": "/",
+            "name": "Franchises"
+        },
+        {
+            "to": "/",
+            "name": "Salon at Home"
+        },
+        {
+            "to": "/",
+            "name": "Beauty Services"
+        },
+        {
+            "to": "/",
+            "name": "Products"
+        },
+        {
+            "to": "/",
+            "name": "Institutes"
+        },
+        {
+            "to": "/",
+            "name": "Contact us"
+        },
+        {
+            "to": "/",
+            "name": "Blog"
+        }
+            
+    ]
+   

@@ -71,4 +71,7 @@ section.services {
 .pkgs-list {
     padding: 40px 0px;
 }
+.test-bg{
+    width: 20px;
+  }
 }

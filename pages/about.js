@@ -11,7 +11,7 @@ export default function About() {
             title="helllo dldsfsdfdskl"
             description="hello about"
         >
-                <p>i am about</p>
+                <p>i am abouwfdskofsfsdfsdfsdf;f;dfsdkflsdt</p>
             </Layout></>
     )
 

@@ -8,7 +8,7 @@ const ProductCard = (props) => {
     };
     return (
         <>
-            <div className="col-4">
+            <div className="col-md-4 col-sm-12">
                 <div className="pro-card">
                     <div className="wishlist_home">
                         <i className="fa fa-heart"

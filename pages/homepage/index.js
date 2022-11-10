@@ -8,7 +8,7 @@ import Products from './product';
 import Franchises from './franchises';
 import Institute from './institute'
 import Testimonials from './testimonials';
-import HsbpApp from './hsbpApp';
+import HsbpApp from './app';
 
 const HomePage = () => {
   return (

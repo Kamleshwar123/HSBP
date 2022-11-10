@@ -18,8 +18,18 @@ const Testimonials = () => {
     slidesToShow: 3,
     centerMode: true,
     centerPadding: '50px',
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      ]
   };
+
   return (
     <>
       <TestimonialHeading /><div className="container">
@@ -30,7 +40,9 @@ const Testimonials = () => {
               <Image
                 src={TestiSlider1}
                 width={"100%"}
-                height={"100%"} />
+                height={"100%"} 
+                className={"test-bg"}
+                />
                 <div className="testi-cont">
                 <p className='testi-nme'>Sonia Pandey</p>
                 </div>
@@ -51,7 +63,9 @@ const Testimonials = () => {
               <Image
                 src={TestiSlider2}
                 width={"100%"}
-                height={"100%"} />
+                height={"100%"}
+                className={"test-bg"}
+                />
                 <div className="testi-cont">
                 <p className='testi-nme'>Sonia Pandey</p>
                 </div>
@@ -72,7 +86,9 @@ const Testimonials = () => {
               <Image
                 src={TestiSlider1}
                 width={"100%"}
-                height={"100%"} />
+                height={"100%"} 
+                className={"test-bg"}
+                />
                 <div className="testi-cont">
                 <p className='testi-nme'>Sonia Pandey</p>
                 </div>
@@ -93,7 +109,9 @@ const Testimonials = () => {
               <Image
                 src={TestiSlider1}
                 width={"100%"}
-                height={"100%"} />
+                height={"100%"} 
+                className={"test-bg"}
+                />
                 <div className="testi-cont">
                 <p className='testi-nme'>Sonia Pandey</p>
                </div>
