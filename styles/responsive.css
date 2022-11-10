@@ -75,3 +75,10 @@ section.services {
     width: 20px;
   }
 }
+@media only screen   
+and (max-device-width : 1400px)   
+{ 
+  .test-content{
+font-size: 13px;
+  }  
+} 

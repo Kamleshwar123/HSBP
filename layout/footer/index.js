@@ -101,7 +101,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3">
                         <div className="footer-page-list">
-                            <ul>
+                            <ul key={'i'}>
                                 {
                                     footer_page_menu.map
                                         (footer_page_menu => (<li><Link className='fotter-menu' href={footer_page_menu.to}>{footer_page_menu.name}</Link></li>))
