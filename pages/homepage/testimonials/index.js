@@ -48,7 +48,7 @@ const Testimonials = () => {
                 </div>
                 <div className="test-content">
                <i className="fas fa-quote-right"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore</p>
                 </div>
                 </div>
               <Image
@@ -71,7 +71,7 @@ const Testimonials = () => {
                 </div>
                 <div className="test-content">
                <i className="fas fa-quote-right"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore</p>
                 </div>
                 </div>
               <Image
@@ -94,7 +94,7 @@ const Testimonials = () => {
                 </div>
                 <div className="test-content">
                <i className="fas fa-quote-right"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore</p>
                 </div>
                 </div>
               <Image
@@ -117,7 +117,7 @@ const Testimonials = () => {
                </div>
                <div className="test-content">
                <i className="fas fa-quote-right"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore</p>
                 </div>
                 </div>
               <Image
