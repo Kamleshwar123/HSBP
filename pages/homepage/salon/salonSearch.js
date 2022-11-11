@@ -66,7 +66,7 @@ function SalonSearch() {
                   onSearch={handleOnSearch}
                   onHover={handleOnHover}
                   onSelect={handleOnSelect}
-                  onFocus={handleOnFocus}
+                  // onFocus={handleOnFocus}
                   onClear={handleOnClear}
                   styling={{ zIndex: 4 }}
                   autoFocus />

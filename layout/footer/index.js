@@ -4,12 +4,10 @@ import Link from 'next/link'
 const Footer = () => {
     const footer_page_menu = [
         {
-
             to: '/',
             name: 'About Us'
         },
         {
-
             to: '/',
             name: 'Nearby Salons'
         },
@@ -41,52 +39,44 @@ const Footer = () => {
             to: '/',
             name: 'Blog'
         },
-            
+
     ];
     const footer_page_menu_sec = [
-    
-        {
 
+        {
             to: '/',
             name: 'Appointment Query'
         },
         {
-
             to: '/',
             name: 'I am a Beautician'
         },
         {
-
             to: '/',
             name: 'Site Map'
         },
         {
-
             to: '/',
             name: 'Apps Download'
         },
         {
-
             to: '/',
             name: 'Awards'
         },
         {
-
             to: '/',
             name: 'News, Events & Media'
         },
         {
-
             to: '/',
             name: 'Buy Subscription'
         },
         {
-
             to: '/',
             name: ' Clients Speak'
         },
     ];
-       
+
     return (
         <section className="footer">
             <div className="container">
@@ -101,21 +91,21 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3">
                         <div className="footer-page-list">
-                            <ul key={'1'}>
+                            <ul>
                                 {
                                     footer_page_menu.map
-                                        (footer_page_menu => (<li><Link className='fotter-menu' href={footer_page_menu.to}>{footer_page_menu.name}</Link></li>))
+                                        (footer_page_menu => (<li key="{2}"><Link className='fotter-menu' href={footer_page_menu.to}>{footer_page_menu.name}</Link></li>))
                                 }
 
                             </ul>
                         </div>
                     </div>
                     <div className="col-md-3">
-                    <div className="footer-page-list">
+                        <div className="footer-page-list">
                             <ul>
                                 {
                                     footer_page_menu_sec.map
-                                        (footer_page_menu_sec => (<li><Link className='fotter-menu' href={footer_page_menu_sec.to}>{footer_page_menu_sec.name}</Link></li>))
+                                        (footer_page_menu_sec => (<li key="{1}"><Link className='fotter-menu' href={footer_page_menu_sec.to}>{footer_page_menu_sec.name}</Link></li>))
                                 }
 
                             </ul>
@@ -123,33 +113,34 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3">
                         <div className="foter-support">
-                        <h1>Customer Support</h1>
-                        <div>
-                        <Link href={"tel:9582577510"}>+91 958 257 7510</Link>
+                            <h1>Customer Support</h1>
+                            <div>
+                                <Link href={"tel:9582577510"}>+91 958 257 7510</Link>
+                            </div>
+                            <div>
+                                <Link href={"mailto:hsbpncr@gmail.com"}>hsbpncr@gmail.com</Link>
+                            </div>
                         </div>
-                        <div>
-                        <Link href={"mailto:hsbpncr@gmail.com"}>hsbpncr@gmail.com</Link>
+                        <div className="footer-social">
+                            <h1>Follow us</h1>
+                            <ul>
+                                <Link href={"/"}>
+                                    <li><i className="fa-brands fa-facebook-f"></i></li>
+                                </Link>
+                                <Link href={"/"}>
+                                    <li><i className="fa-brands fa-instagram"></i></li>
+                                </Link>
+                                <Link href={"/"}>
+                                    <li><i className="fa-brands fa-twitter"></i></li>
+                                </Link>
+                                <Link href={"/"}>
+                                    <li><i className="fa-brands fa-linkedin-in"></i></li>
+                                </Link>
+                            </ul>
                         </div>
-                    </div>
-                    <div className="footer-social">
-                        <h1>Follow us</h1>
-                        <ul>
-                            <Link href={"/"}>
-                            <li><i className="fa-brands fa-facebook-f"></i></li>
-                            </Link>
-                            <Link href={"/"}>
-                            <li><i className="fa-brands fa-instagram"></i></li>
-                            </Link>
-                            <Link href={"/"}>
-                            <li><i className="fa-brands fa-twitter"></i></li>
-                            </Link>
-                            <Link href={"/"}>
-                            <li><i className="fa-brands fa-linkedin-in"></i></li>
-                            </Link>
-                        </ul>
-                    </div>
                     </div>
                 </div>
+                <hr></hr>
             </div>
         </section>
     )
