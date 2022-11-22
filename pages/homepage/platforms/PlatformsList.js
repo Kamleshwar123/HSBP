@@ -28,7 +28,7 @@ const PlatformsList = () => {
        <div className='col-md-4 col-sm-6'>
           <div className='ser-card-3'>
              <h1>Beauty Product</h1>
-             <p>1000+ Partners</p>
+             <p>1000+ Products</p>
              <div className='ser-arrow bounce-2 '>
                 <img src={"assets/icon/double-down-arrow.webp"} alt="arrow" height={'100%'} width={'100%'} ></img>
              </div>
