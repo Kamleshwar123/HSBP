@@ -29,7 +29,7 @@ const PlatformsList = () => {
               <div className="col-md-4 col-sm-6">
                 <div className="ser-card-2 ">
                   <h1>Near by Salon</h1>
-                  <p>1000+ Salons</p>
+                  <p>1000+ Salon</p>
                   <div className="ser-arrow bounce-2 ">
                     <img
                       src={"assets/icon/double-down-arrow.webp"}
