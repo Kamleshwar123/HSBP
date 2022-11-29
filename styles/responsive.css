@@ -74,6 +74,114 @@ section.services {
 .test-bg{
     width: 20px;
   }
+
+  /*****----------END--------Homepage--------*******/
+
+/*******---------Contact-----Form---------********/
+.form-body{
+    margin-left: -10px;
+    position:relative;
+    height: 78rem;
+    width: 370px;
+}
+.form-head{
+    width: 100%;
+}
+
+.form-head p{
+    width: 100%;
+}
+.form-heading{
+width: 360px;
+}
+
+
+.form-heading h3{
+    width: 100%;
+}
+.form{
+    width:340px;
+     position: absolute;
+     margin-left: -112px;
+}
+
+.contact-btn1{
+ width: 100%;
+}
+.form-group{
+    width: 100%;
+}
+
+.contact-btn1{
+   margin-left: 0px;
+   width: 100px;
+    position: relative;
+    
+}
+.form-group{
+    float: left;
+}
+
+/**--Profile-Page-***/
+
+
+
+.form-body-1{
+ /*margin-left: -10px;
+    position:relative;
+    height: 78rem;
+    width: 370px;*/
+
+        margin-left: -10px;
+    position: relative;
+    height: 99rem;
+    width: 370px;
+    top: 8rem;
+    background: #d3d3d33b;
+    margin-bottom: 2rem;
+}
+.p-heading{
+   
+    margin-top: -8rem;
+    margin-bottom: 1rem;
+}
+
+.p-form-head-p{
+    width: 100%;
+}
+
+
+.p-form-heading{
+width: 360px;
+margin-top: -7.5rem;
+padding-bottom: 10px;
+padding-left: 120px;
+padding-top: 10px;
+}
+
+
+.p-form-heading h3{
+    width: 100%;
+}
+.form-1{
+        width: 340px;
+    position: absolute;
+    margin-left: 16px;
+    background: white;
+        border-radius: 20px 0 20px 20px;
+}
+
+.contact-btn1{
+ width: 90%;
+ margin-left: 15px;
+}
+.form-group{
+    width: 100%;
+}
+
+
+
+
 }
 @media only screen   
 and (max-device-width : 1400px)   
@@ -113,3 +221,5 @@ width: 315px;
     margin-top: 10px;
 }
 }
+
+
