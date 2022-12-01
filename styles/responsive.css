@@ -103,18 +103,17 @@ width: 360px;
     width:340px;
      position: absolute;
      margin-left: -112px;
+     
 }
 
-.contact-btn1{
- width: 100%;
-}
+
 .form-group{
     width: 100%;
 }
 
-.contact-btn1{
-   margin-left: 0px;
-   width: 100px;
+.profile-detail-btn1{
+   margin-left: 15px;
+   width: 300px;
     position: relative;
     
 }
@@ -133,40 +132,34 @@ width: 360px;
     width: 370px;*/
 
         margin-left: -10px;
-    position: relative;
-    height: 99rem;
+      margin-top: -8rem;
+        position: relative;
+    height: 101rem;
     width: 370px;
     top: 8rem;
     background: #d3d3d33b;
-    margin-bottom: 2rem;
-}
-.p-heading{
-   
-    margin-top: -8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    
 }
 
-.p-form-head-p{
-    width: 100%;
-}
+
 
 
 .p-form-heading{
 width: 360px;
 margin-top: -7.5rem;
 padding-bottom: 10px;
-padding-left: 120px;
+margin-bottom: -2px;
 padding-top: 10px;
 }
 
 
-.p-form-heading h3{
-    width: 100%;
-}
+
 .form-1{
         width: 340px;
     position: absolute;
-    margin-left: 16px;
+    
+    margin-left: -7rem;
     background: white;
         border-radius: 20px 0 20px 20px;
 }
@@ -179,8 +172,147 @@ padding-top: 10px;
     width: 100%;
 }
 
+/***-------profile----End--------**********/
+
+/*****----customer-care----****/
+
+.cc-box{
+    position: relative;
+    
+}
+.cc-box-body-up{
+    margin-top: 20rem;
+}
+.cc-box-body{
+  width:100%;
+  height: 100%;
+  
+ padding: 1rem 2rem;
+      
+}
 
 
+.cc-phone-img{
+    width: 320px;
+    position: absolute;
+     margin-left: 10px;
+     margin-top: -58.5rem;
+ }
+.cc-heading h5{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    /* margin-left: 90px; */
+    text-align: center;
+}
+
+.cc-text{
+  font-family: Poppins, Light;
+  font-weight: 100;
+  font-size: 17px;
+}
+.cc-text-2{
+    margin-top: 17px;
+     font-size: 17px;
+}
+/******-----End Customer care Page----*****/
+
+/****-----Product- Detail Page-----*******/
+.heading h1{
+  font-size: 35px;
+}
+.box{
+    height: 85rem;
+}
+.box-left{
+    width: 100%;
+}
+.box-right{
+    width: 100%;
+    margin-top: 2rem;
+   margin-right: -2rem;
+}
+.wow-img{
+  width: 542px;
+  height: 400px;
+}
+.price-btn{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.box-2{
+margin-bottom: 108rem;
+}
+.circle{
+  margin-left: 5rem;
+
+
+}
+.circle-2{
+  margin-left: 5rem;
+  margin-top: 22rem;
+}
+.circle-3{
+  margin-left: 5rem;
+   margin-top: 22rem;
+}
+.name{
+    width: 100%;
+    margin-top: 2rem;
+ 
+}
+/******End Product Details page**********/
+
+/******Payment mode page*********/
+.pay-box{
+    height: 105rem;
+         
+}
+.pay-box-main{
+    padding-bottom: 28rem;
+}
+.pay-address{
+width: 90%;
+height: 25rem;
+margin: 1px 0px   0px  0px ;
+margin-left: -15px;
+}
+.pay-box-down{
+    width: 90%;
+    margin-left: -0.1rem;
+}
+.pay-btn2{
+    margin-left: 4.5rem;
+}
+.pay-btn1{
+  background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  text-align: center;
+  width: 17rem;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 100;
+  border: none;
+  margin-left: -12px;
+  margin-top: 2rem;
+}
+.pay-btn1:hover{
+background: #fff;
+color: #2F1A59;
+font-weight: 500;
+text-decoration: none;
+ box-shadow: 0px 5px  15px #2F1A59;
+}
+
+.pay-box-main hr{
+  width: 90%;
+}
+.app-icons-1{
+    margin-left: -20px;
+}
 
 }
 @media only screen   

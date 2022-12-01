@@ -1040,16 +1040,16 @@ width: 200px;
 }
 .form-heading h3{
   color:#000;
+  font-family:Poppins,Medium ;
 }
 
 .form{
-     
     border-radius: 15px 0 15px 15px;
     background: white;
       box-shadow: 0px 0px 15px;
       /* position: absolute; */
 }
-.contact-btn1{
+.profile-detail-btn1{
     background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
   border-radius: 7px;
   width: 300px;
@@ -1079,4 +1079,585 @@ width: 200px;
   border-radius: none;
 }
 
+
+/**--------------contact-page --end---------------*****/
+
+/****-------profile-page------*/
+
+.form-body-1{
+    width:100%;
+  height: 100%;
+  background-color: rgba(122, 121, 121, 0.089);
+     padding: 9rem 8rem 4rem;
+}
+
+.form-1{
+      border-radius: 15px 0 15px 15px;
+    background: white;
+      box-shadow: 0px 0px 15px;
+}
+
+.p-form-heading{
+ 
+  margin-top: -6rem;
+  margin-bottom: 1rem;
+}
+.profile-btn1{
+    background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  width: 400px;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.3s;
+      margin-top: 32px;
+    margin-bottom: 32px;
+        margin-left: 21rem;
+}
+/***------------Profile -End-------*/
+
+/***-------Franchise-Page-----*******/
+
+.franchise-img-1{
+  border: 1px solid red;
+  width: 100%;
+  height: 20rem;
+}
+
+.form-group{
+  width: 50%;
+  float :left;
+  padding: 1.5rem 1.5rem;
+  border-radius: none;
+}
+
+.form-group-franchise{
+  width: 100%;
+  float :left;
+  padding: 1.5rem 1.5rem;
+  border-radius: none;
+}
+
+
+
+.form-control-franchise{
+   width: 100%;
+  height: 20rem;
+  float :left;
+  padding: 1.5rem 1.5rem;
+  border-radius: none;
+  border-color: #00000029;
+}
+
+.contact-btn1{
+    background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  width: 220px;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.3s;
+      margin-top: 32px;
+    margin-bottom: 32px;
+        margin-left: 32rem;
+  
+}
+
+/*****-----End-----Franchise-Page-------**********/
+
+/*******----Customer-Page----****/
+
+.header-customer{
+  margin-top: 50px;
+  border:2px solid #707070;;
+  padding: 30px 50px;
+  background: transparent linear-gradient(265deg, #993680 0%, #2F1A59 99%) 0% 0% no-repeat padding-box;
+  
+}
+
+.header-customer h4{
+  color :white;
+}
+
+/***********------End-----Customer---Page-----*******/
+
+/*****--------Customer---Care----Page-----*********/
+.cc-box{
+  background-color: rgba(122, 121, 121, 0.089);
+  position: relative;
+ 
+}
+.cc-heading h5{
+  color:#000;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 40px;
+  font-family: Poppins, Medium;
+  font-size: 35px;
+}
+
+.cc-box-body{
+  width:50%;
+  height: 100%;
+  
+ padding: 1rem 2rem;
+      
+}
+
+.cc-care-img{
+margin-right: 10px;
+}
+
+.cc-box-body-2{
+  width:100%;
+  height: 100%;
+   
+  padding: 9rem 8rem 4rem;
+     
+}
+
+.cc-image-box-2{
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.cc-image-1{
+  margin-right: 5px;
+}
+
+.cc-image-2{
+  margin-right: 10px;
+}
+
+.cc-phone-img{
+  position: absolute;
+  margin-top: -40rem;
+  margin-left: 44rem;
+ 
+  width: 550px;
+}
+.cc-sub-heading{
+  color: #8B2E5D;
+  font-family: Poppins, Medium;
+  font-size: 23px;
+}
+.cc-text{
+  font-family: Poppins, Light;
+  font-weight: 100;
+  font-size: 20px;
+}
+.cc-text-2{
+    margin-top: 20px;
+    font-size: 20px;
+}
+/**---------End customer care page ----*****/
+
+/***-------product details page-------******/
+.heading{
+  margin-top: 2rem;
+}
+.heading h1{
+  color:#000;
+}
+.para{
+  margin-top: 2rem;
+}
+.para p{
+  opacity: 0.7;
+  font-size: 24px;
+  font-family: Poppins, Regular;
+}
+.box{
+  margin-top: 2rem;
+border: 1px solid rgb(246, 243, 243);
+ border-radius: 18px;
+ box-shadow: 0px 5px 15px #0000008F;
+}
+.box-left{
+ 
+  border:1px solid #fbe8e8;
+  border-radius: 18px;
+  width: 40%;
+  background: #fbe8e8 0% 0% no-repeat padding-box;
+}
+.wow-img{
+  width: 542px;
+  height: 444px;
+}
+.top-border{
+  border: 3px solid white;
+  border-radius: 15px;
+  margin: 1.5rem;
+  padding: 2rem;
+}
+.box-right{
+  float :right;
+  margin-top: -32rem;
+  width: 55%;
+}
+hr{
+  width: 80%;
+}
+
+.box-heading{
+   font-family: Poppins, Regular;
+  font-size: 30px;
+  width: 65%;
+}
+.rating-text{
+  float :right;
+  margin-right: 16rem;
+}
+.rating-text p{
+  opacity: 0.7;
+  font-size: 24px;
+  font-family: Poppins, Regular;
+}
+.box-sub-heading{
+  margin-top: 2rem;
+}
+.price-heading{
+  color: #8B2E5D;
+  font-family: Poppins, Medium;
+  font-size: 27px;
+}
+.price p{
+  font-size: 30px;
+}
+.price span{
+  text-decoration: line-through;
+}
+
+.price-btn{
+  background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  width: 180px;
+  text-align: center;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-right: 30px;
+  border: none;
+}
+.price-btn:hover{
+background: #fff;
+color: #2F1A59;
+text-decoration: none;
+}
+.box-2{
+  margin-top: 5rem;
+  height: 70rem;
+}
+.price-btn2{
+  border:none;
+ border-bottom: 3px solid black;
+  margin-right: 3rem;
+  background: white;
+  font-family: Poppins, Medium;
+  font-size: 40px;
+
+}
+.price-btn2:hover{
+   border-bottom: 3px solid purple;
+}
+.para-2 p{
+  margin-top: 2rem;
+  font-family: Poppins, Regular;
+  opacity: 0.6;
+  font-size: 26px;
+}
+
+.rating-text-2{
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+ 
+}
+.rating-tex-2{
+ padding-top: 2rem;
+  padding-bottom: 5.5rem;
+}
+.circle {
+  width:150px;
+  height: 150px;
+  
+  background: #F2F2F2 0% 0% no-repeat padding-box;  
+  color: #D8D4D4;
+  border-radius: 50%;
+  position: relative;
+}
+.circle-2 {
+  width:150px;
+  height: 150px;
+  
+  background: #F2F2F2 0% 0% no-repeat padding-box;  
+  color: #D8D4D4;
+  border-radius: 50%;
+  position: relative;
+}
+.circle-3 {
+  width:150px;
+  height: 150px;
+  
+  background: #F2F2F2 0% 0% no-repeat padding-box;  
+  color: #D8D4D4;
+  border-radius: 50%;
+  position: relative;
+}
+.circle p {
+  position: absolute;
+  margin-left: 2.5rem;
+
+  font-family: Poppins, Medium;
+  font-size: 100px;
+}
+.circle-2 p {
+  position: absolute;
+  margin-left: 2.5rem;
+
+  font-family: Poppins, Medium;
+  font-size: 100px;
+}
+.circle-3 p {
+  position: absolute;
+  margin-left: 2.5rem;
+
+  font-family: Poppins, Medium;
+  font-size: 100px;
+}
+.name{
+  float:right;
+  margin-top: -9rem;
+  margin-left: 11rem;
+}
+.name-head{
+  font-size: 40px;
+}
+.price-rating{
+  margin-bottom: 1rem;
+}
+.p-text{
+  font-size: 25px;
+  opacity: 0.6;
+  width: 88%;
+}
+
+/*********End Product Details page ******/
+
+/*******---Cart Page--*********/
+
+.form-group-cart{
+  width: 50%;
+  float :left;
+  padding: 1.5rem 1.5rem;
+  border-radius: none;
+}
+
+.form-group-cart{
+  width: 100%;
+  float :left;
+  padding: 1.5rem 1.5rem;
+  border-radius: none;
+}
+/* .field-checkbox{
+  margin-left: 10px;
+  width: 20px;
+} */
+.cname{
+  margin-bottom: 10px;
+}
+
+.checkbox-label{
+  margin-left: 10px;
+  opacity:0.6;
+}
+
+.form-control-cart{
+   width: 100%;
+  height: 15px;
+  float :left;
+  padding: 1.5rem 1.5rem;
+  border-radius: none;
+  border-color: #00000029;
+}
+
+/****-----End Cart Page  ******/
+
+
+/*****-----Payment Mode------*********/
+
+.pay-box{
+  margin-top: 2rem;
+  box-shadow: 0px 8px 15px #0000008F;
+  font-family: Poppins, Medium;
+  border-radius: 25px;
+  position:relative;
+}
+.pay-box-head{
+  background: transparent linear-gradient(265deg, #993680 0%, #2F1A59 99%) 0% 0% no-repeat padding-box; 
+  
+    border-radius: 18px 0px 0px 0px;
+
+}
+.app-icons-1{
+  margin-left: 3rem;
+  font-family: Poppins, Medium;
+}
+
+.pay-box-head p{
+  color: #fff;
+  padding: 10px;
+  font-family: Poppins, Medium;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 1.5rem;
+}
+.pay-box-main{
+  background: #F2F2F2;
+  padding-top: 35px;
+  padding-left: 30px;
+  margin-top: -15px;
+
+}
+.pay-box-main hr{
+  width: 45%;
+}
+.radio-btn{
+  height: 30px;
+  width: 30px;
+ 
+}
+.radio-txt{
+  font-family: Poppins, Medium;
+  font-size: 33px;
+  margin-left: 1rem;
+}
+.txt{
+  font-size: 20px;
+  padding-left: 2.8rem;
+}
+.txt-2{
+  font-size: 20px;
+  margin-left: 2.8rem;
+}
+
+.span-color{
+  color :#0B3ECF;
+  font-size: 20px;
+}
+
+.pay-1{
+  margin-left: 1.8rem;
+  margin-top: -3rem;
+}
+.pay-2{
+  margin-top: -1rem;
+}
+.pay-box-down{
+  border: 1px solid grey;
+  width: 40%;
+  background: #fff;
+  padding: 10px 10px 0 10px;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  border-radius: 25px ;
+}
+.pay-box-title{
+  color: black;
+  font-size: 24px;
+}
+.pay-box-down {
+  color: #605F5F;
+  font-size: 22px;
+}
+
+.pay-box-down hr{
+  margin-top: -1rem;
+  width: 100%;
+}
+
+.pay-box-down-2{
+  display: flex;
+  justify-content: space-between;
+}
+.pay-btn2{
+  background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  text-align: center;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 100;
+  border: none;
+  margin-left: 16rem;
+  margin-bottom: 3rem;
+}
+.pay-btn2:hover{
+background: #fff;
+color: #2F1A59;
+font-weight: 500;
+text-decoration: none;
+ box-shadow: 0px 5px  15px #2F1A59;
+}
+
+.pay-address{
+ box-shadow: 0px 5px 15px #00000066;
+  width: 32%;
+  height: 35rem;
+  padding: 2rem;
+  padding-right: 4rem;
+  background: #fff;
+  border-radius: 25px;
+  
+  margin-top: -50rem;
+  margin-left: 47rem;
+  position:absolute;
+
+}
+.pay-address span{
+  font-family: Poppins, Regular;
+  font-size: 24px;
+}
+.pay-address p{
+  margin-top: 1rem;
+   font-family: Poppins, Regular;
+  font-size: 20px;
+}
+
+.pay-btn1{
+  background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  text-align: center;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 100;
+  border: none;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.pay-btn1:hover{
+background: #fff;
+color: #2F1A59;
+font-weight: 500;
+text-decoration: none;
+ box-shadow: 0px 5px  15px #2F1A59;
+}
+/**** ---End --Payment mode Page End----*****/
 

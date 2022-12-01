@@ -4,6 +4,12 @@ import HomePage from "./homepage";
 import About from "./about";
 import contactform from "./contactform";
 import ProfileForm from "./profileform";
+import FranchisePage from "./franchise";
+import customerForm from "./customerform";
+import customerCareForm from "./customercare";
+import Productdetail from "./productdetails";
+import ProductCart from "./cart";
+import Paymentmode from "./paymentmode";
 
 export default function Home() {
   return (

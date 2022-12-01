@@ -154,7 +154,7 @@ const addressForm = () => {
                     </div>
                   </div>
 
-                  <button className="contact-btn1">
+                  <button className="profile-detail-btn1">
                     Save Address & Continue
                   </button>
                 </div>
