@@ -1661,3 +1661,53 @@ text-decoration: none;
 }
 /**** ---End --Payment mode Page End----*****/
 
+
+/****----FEEDBACK PAGE-----***********/
+
+
+
+.feedback-banner{
+  background-image: url('../public/assets/images/faq.png');
+  width: 1300px;
+  height: 242px;
+  color: white; 
+  border-radius: 20px 25px 25px;
+  margin-bottom: 30px;
+}
+.feed-heading{
+  font-size: 55px;
+  text-align: center;
+}
+.feed-text{
+  text-align: center;
+  font-size: 26px;
+  font-weight: 100;
+  font-family: Poppins, Regular;
+  width: 740px;
+  margin-left: 19rem;
+  
+}
+.feed-text-2{
+  font-size: 26px;
+  font-family: Poppins, Regular;
+  font-weight: 200;
+}
+.feed-input{
+  border:none;
+  border-bottom: 1px solid black;
+  margin-right: 50px;
+  padding-left: 10rem;
+}
+.feed-input-2{
+  border:none;
+  border-bottom: 1px solid black;
+  margin-right: 50px;
+  padding-left: 13rem;
+ 
+  position :relative;
+}
+
+.feed-legend{
+
+  position: absolute;
+}

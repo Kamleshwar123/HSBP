@@ -1,6 +1,6 @@
 import Layout from "../../layout";
 import Head from "next/head";
-import FeedbackPage from "./feedbackPage";
+import FeedbackPage from "./feedbackpage";
 
 export default function feedback() {
   return (
