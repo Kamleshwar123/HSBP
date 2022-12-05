@@ -19,9 +19,7 @@ export default function paymentpage() {
               name="fav_language"
               value="HTML"
             />
-            <label className="radio-txt" for="html">
-              Other UPI IDs/Net Banking
-            </label>
+            <label className="radio-txt">Other UPI IDs/Net Banking</label>
             <br />
             <br />
             <div className="app-icons-1">
@@ -34,9 +32,7 @@ export default function paymentpage() {
               name="fav_language"
               value="HTML"
             />
-            <label className="radio-txt" for="html">
-              Add Debit / Credit / ATM Card
-            </label>
+            <label className="radio-txt">Add Debit / Credit / ATM Card</label>
             <br />
             <p className="txt">
               You can save your cards as per new RBI guidliness,
@@ -54,9 +50,7 @@ export default function paymentpage() {
               name="fav_language"
               value="HTML"
             />
-            <label className="radio-txt" for="html">
-              Pay On Service
-            </label>
+            <label className="radio-txt">Pay On Service</label>
             <br />
             <p className="txt-2">
               To ensure social distancing, Pay on Service is not preferable

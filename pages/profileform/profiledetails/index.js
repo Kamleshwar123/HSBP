@@ -20,7 +20,7 @@ const profileForm = () => {
               <div className="form-box">
                 <div className="loginForm">
                   <div className="form-group">
-                    <label for="fname">Name</label>
+                    <label>Name</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <input
@@ -36,7 +36,7 @@ const profileForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">Last Name</label>
+                    <label>Last Name</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <input
@@ -52,7 +52,7 @@ const profileForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">Mobile Number</label>
+                    <label>Mobile Number</label>
                     <br />
                     <div className="input-group">
                       <input
@@ -68,7 +68,7 @@ const profileForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">Gender</label>
+                    <label>Gender</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <select className="form-control" name="cars">
@@ -81,7 +81,7 @@ const profileForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">Date of Birth</label>
+                    <label>Date of Birth</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <input
@@ -97,7 +97,7 @@ const profileForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">Age</label>
+                    <label>Age</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <select className="form-control" name="cars">
@@ -120,7 +120,7 @@ const profileForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">Email Address</label>
+                    <label>Email Address</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <input
@@ -136,7 +136,7 @@ const profileForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">Pin Code</label>
+                    <label>Pin Code</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <input
@@ -152,7 +152,7 @@ const profileForm = () => {
                   </div>
 
                   <div className="form-group-1">
-                    <label for="fname">Permanent Address</label>
+                    <label>Permanent Address</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <input
@@ -168,7 +168,7 @@ const profileForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">State</label>
+                    <label>State</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <select className="form-control" name="cars">
@@ -182,7 +182,7 @@ const profileForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">City</label>
+                    <label>City</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <select className="form-control" name="city">

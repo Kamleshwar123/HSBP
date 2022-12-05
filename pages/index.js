@@ -10,7 +10,7 @@ import customerCareForm from "./customercare";
 import Productdetail from "./productdetails";
 import ProductCart from "./cart";
 import Paymentmode from "./paymentmode";
-
+import feedback from "./Feedback";
 export default function Home() {
   return (
     <>

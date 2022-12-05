@@ -53,7 +53,7 @@ const addressForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">House No./ Building Name</label>
+                    <label>House No./ Building Name</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <input
@@ -69,7 +69,7 @@ const addressForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">Street Name/ Area / Colony</label>
+                    <label>Street Name/ Area / Colony</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <input
@@ -85,7 +85,7 @@ const addressForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">State</label>
+                    <label>State</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <select className="form-control" name="cars">
@@ -99,7 +99,7 @@ const addressForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">City</label>
+                    <label>City</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <select className="form-control" name="city">
@@ -123,7 +123,7 @@ const addressForm = () => {
                       /> */}
 
                   <div className="form-group">
-                    <label for="fname">Nearby Location</label>
+                    <label>Nearby Location</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <input
@@ -139,7 +139,7 @@ const addressForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">Pin Code</label>
+                    <label>Pin Code</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <input

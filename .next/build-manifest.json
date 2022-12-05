@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/paymentmode": [
+    "/feedback": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/paymentmode.js"
+      "static/chunks/pages/feedback.js"
     ]
   },
   "ampFirstPages": []
