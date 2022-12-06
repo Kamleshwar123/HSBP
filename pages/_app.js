@@ -1,13 +1,14 @@
 import "../styles/globals.css";
-import 'bootstrap/dist/css/bootstrap.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import"../styles/style.css";
-import"../styles/responsive.css";
+import "bootstrap/dist/css/bootstrap.css";
+//import "bootstrap/dist/js/bootstrap.bundle.js";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../styles/style.css";
+import "../styles/responsive.css";
 import React from "react";
 import App from "next/app";
 import Head from "next/head";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+// import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function MyApp({ Component, pageProps }) {
   MyApp.getInitialProps = async (appContext) => {
@@ -23,8 +24,8 @@ function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
         />
       </Head>
-    
-        <Component {...pageProps} />
+
+      <Component {...pageProps} />
     </>
   );
 }

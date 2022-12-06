@@ -12,7 +12,7 @@ export default function franchise() {
   return (
     <>
       <div className="container">
-        <div className="">
+        <div>
           <div className="image1">
             <Image src={Image1} height={"100%"} width={"100%"} />
           </div>

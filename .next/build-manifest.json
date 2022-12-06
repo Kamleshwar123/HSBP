@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contactform": [
+    "/faq": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contactform.js"
-    ],
-    "/feedback": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/feedback.js"
+      "static/chunks/pages/faq.js"
     ]
   },
   "ampFirstPages": []

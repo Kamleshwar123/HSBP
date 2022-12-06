@@ -2,7 +2,7 @@ import Layout from "../../layout";
 import Head from "next/head";
 import FeedbackPage from "./feedbackpage";
 
-export default function feedback() {
+export default function Feedback() {
   return (
     <>
       <Head>

@@ -314,6 +314,87 @@ text-decoration: none;
     margin-left: -20px;
 }
 
+
+
+/***--------End Payment mode -----*******/
+
+/***********---END----feedback page---------*****/
+
+
+.feed-form{
+ width: 100%;
+}
+.feed-rating-box{
+  height: 15rem;
+}.feed-text{
+    width: 80%;
+    margin-left: 40px;
+}
+
+.feed-star{
+    padding-top: 4rem;
+        margin-top: 184px;
+    margin-left: 6rem;
+}
+.feed-sub-heading h3{
+    font-size: 32px;
+    text-align: center;
+}
+.feed-text-2{
+    font-size: 17px;
+    text-align: center; 
+}
+.feed-down-heading{
+    font-size: 35px;
+    text-align: center;
+}
+  .feed-down-btn{  margin-top: 30px;
+    padding: 10px;
+    width: 145px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0%;
+    font-size: 18px;
+    margin-left: 114px;
+}
+.feed-star{
+    margin-top: 50px;
+    margin-left: -210px;
+}
+.feed-star-2 {
+    margin-top: 8rem;
+    margin-left: -11REM;
+}
+.feed-star-3 {
+    margin-top: 9rem;
+    margin-left: -18rem;
+}
+.rate-text-3{
+    width: 300px;
+    font-size: 20px;
+}
+.feed-btn{
+    margin-top: 2rem;
+}
+.feed-btn2{
+    margin-top: 1rem;
+}
+.feed-rating{
+  padding-left: 16px;
+  margin-top: 1.5em;
+}
+
+/**********-------End Feedback form---------*****/
+/*****-----FAQ PAGE----*******/
+.faq-text{
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 15px; 
+}
+
+/*****END FAQ PAGE**********/
 }
 @media only screen   
 and (max-device-width : 1400px)   

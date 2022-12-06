@@ -21,7 +21,7 @@ const addressForm = () => {
               <div className="form-box">
                 <div className="loginForm">
                   <div className="form-group">
-                    <label for="fname">Name</label>
+                    <label>Name</label>
                     <br />
                     <div className="input-group has_post_icon">
                       <input
@@ -37,7 +37,7 @@ const addressForm = () => {
                   </div>
 
                   <div className="form-group">
-                    <label for="fname">Mobile Number</label>
+                    <label>Mobile Number</label>
                     <br />
                     <div className="input-group">
                       <input

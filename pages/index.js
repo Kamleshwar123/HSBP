@@ -10,7 +10,8 @@ import customerCareForm from "./customercare";
 import Productdetail from "./productdetails";
 import ProductCart from "./cart";
 import Paymentmode from "./paymentmode";
-import feedback from "./Feedback";
+import feedback from "./feedback";
+import Faq from "./faq";
 export default function Home() {
   return (
     <>
