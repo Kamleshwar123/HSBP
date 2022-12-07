@@ -1932,3 +1932,99 @@ font-size: 20px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+/***--End FAQ PAGE ----****/
+
+/******-sLOT book ********/
+
+.slot-heading p{
+  font-size: 30px;
+  background-image: url("../public/assets/images/slot\ booking.webp");
+  height: 17.8rem;  
+  color:#fff;
+  margin-top: -3rem;
+  padding-top: 6rem;
+  padding-left: 2rem;
+}
+
+.slot-box{
+  width: 50%;
+  border-radius: 15px;
+  margin-top: -9rem;
+  margin-left: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0px 6px 12px #0000004D;
+}
+.slotForm{
+  padding: 30px;
+}
+.slot-btn1{
+  border: none;
+   background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+   color:#fff;
+   padding: 12px;
+   border-radius: 10px;
+   margin-left: 13rem;
+
+}
+.slot-form-group{
+  margin-bottom: 20px;
+}
+
+.slot-form-group-1{
+  margin-bottom: 5px;
+  width: 50%;
+  float:right;
+  padding: 10px;
+}
+.last-info-field{
+  margin-bottom: 20px;
+}
+.slot-Image{
+  margin-left: 55%;
+  margin-top: -52%;
+  z-index: -1;
+  height: 38rem;
+  width: 28rem;
+  border-radius: 51% 0 0 0 ;
+}
+
+/*******End SLOT BOOK Page***********/
+
+.thankyou-box{
+  background-image: url("../public/assets/icon/thankyou.webp");
+  width: 100%;
+  margin-top: 10px;
+  padding-bottom: 10rem;
+  color: #fff;
+  text-align: center; 
+  padding-top: 7rem;
+  background-repeat: no-repeat;
+}
+.thankyou-sub-heading{
+  margin-top: 1rem;
+  font-size: 28px;
+  text-align: center;
+  font-family: Poppins, Medium;
+}
+.thankyou-down-text{
+  margin-left: 23rem;
+  margin-top: -10px;
+  width: 44%;
+  text-align: center;
+  padding: 20px;
+  font-size:20px;
+  font-family: Poppins, Medium;
+}
+.thankyou-image-1{
+  width: 80px;
+}
+.thankyou-image-2{
+  width: 350px;
+}
+.thankyou-btn{
+ background: #fff;
+ border:none;
+ padding: 10px;
+ border-radius: 8px;
+}

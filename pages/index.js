@@ -12,6 +12,8 @@ import ProductCart from "./cart";
 import Paymentmode from "./paymentmode";
 import feedback from "./feedback";
 import Faq from "./faq";
+import Slot from "./slot";
+import Thankyou from "./thankyou";
 export default function Home() {
   return (
     <>

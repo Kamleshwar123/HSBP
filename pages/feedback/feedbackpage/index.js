@@ -2,8 +2,6 @@ import React, { useState } from "react";
 //import Rating from "../../../public/assets/images/Polygon 1-1.svg";
 //import Rating2 from "../../../public/assets/images/Polygon 1-4.svg";
 import StarRating from "react-svg-star-rating";
-import ThumbUpAltOutlinedIcon from "@mui/icons-material/ThumbUpAltOutlined";
-import ThumbDownOutlinedIcon from "@mui/icons-material/ThumbDownOutlined";
 
 export default function FeedbackPage() {
   const [rating1, setRating1] = useState(0);
@@ -117,12 +115,8 @@ export default function FeedbackPage() {
           </div>
           <div className="feed-rating">
             <h4>How would you rate the support you received ?</h4>
-            <button className="feed-btn">
-              <ThumbUpAltOutlinedIcon /> Good I'm satisfied
-            </button>
-            <button className="feed-btn2">
-              <ThumbDownOutlinedIcon /> Bad I'm Unsatisfied
-            </button>
+            <button className="feed-btn">Good I'm satisfied</button>
+            <button className="feed-btn2">Bad I'm Unsatisfied</button>
           </div>
         </div>
         <section>
