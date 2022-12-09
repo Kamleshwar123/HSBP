@@ -29,40 +29,40 @@ export default function FeedbackPage() {
 
         <form action="">
           <div className="feed-form">
-            <div class="test-feed">
-              <div class="field-container">
+            <div className="test-feed">
+              <div className="field-container">
                 <input
-                  class="field-input"
+                  className="field-input"
                   id="inputid"
                   name="inputName"
                   type="text"
                   placeholder=" "
                 />
-                <label class="field-placeholder">First name</label>
+                <label className="field-placeholder">First name</label>
               </div>
             </div>
-            <div class="test-feed">
-              <div class="field-container">
+            <div className="test-feed">
+              <div className="field-container">
                 <input
-                  class="field-input"
+                  className="field-input"
                   id="inputid"
                   name="inputName"
                   type="text"
                   placeholder=" "
                 />
-                <label class="field-placeholder">E-mail ID</label>
+                <label className="field-placeholder">E-mail ID</label>
               </div>
             </div>
-            <div class="test-feed">
-              <div class="field-container">
+            <div className="test-feed">
+              <div className="field-container">
                 <input
-                  class="field-input"
+                  className="field-input"
                   id="inputid"
                   name="inputName"
                   type="text"
                   placeholder=" "
                 />
-                <label class="field-placeholder">Mobile No</label>
+                <label className="field-placeholder">Mobile No</label>
               </div>
             </div>
           </div>

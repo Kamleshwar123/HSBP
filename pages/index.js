@@ -14,6 +14,9 @@ import feedback from "./feedback";
 import Faq from "./faq";
 import Slot from "./slot";
 import Thankyou from "./thankyou";
+import ProductsPage from "./productpage";
+import Checkout from "./checkout";
+
 export default function Home() {
   return (
     <>

@@ -5,6 +5,9 @@
 #outer-container {
   height: 100%;
 }
+html{
+  -webkit-tap-highlight-color: transparent;
+}
 body {
   background-color: #fff;
   padding: 0px;
@@ -104,6 +107,29 @@ img {
   scrollbar-color: #993680; 
   border-radius: 10px;
 }
+    button,
+    textarea,
+    input,
+    select,
+    option,
+    a{
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     -webkit-tap-highlight-color: transparent;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+      user-select: none;
+    
+    }
+    ::-webkit-tap-highlight-color {
+-webkit-tap-highlight-color: transparent;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+      user-select: none;
+    }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {

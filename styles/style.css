@@ -430,14 +430,17 @@ width: 12px;
   text-align: center;
   padding-bottom: 10px;
 }
+
 .service-img {
   width: 80%;
   margin: auto;
   position: relative;
 }
+
 .service-img img{
   padding-top: 30px;
 }
+
 .service-img h1{
   font-family: 'BlackJack', sans-serif;
   text-align: center;
@@ -447,6 +450,7 @@ width: 12px;
   font-size: 32px;
   font-weight: 600;                                
 }
+
 .service-img p{
 text-align: center;
 color: #400056;
@@ -2028,3 +2032,317 @@ font-size: 20px;
  padding: 10px;
  border-radius: 8px;
 }
+
+/*******Product card page*********/
+.prod-page-banner{
+  background-size: cover;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  width: 70%;
+}
+
+.prod-page{
+  background-image: url("../public/assets/images/background\ flower.webp");
+    height: 100%;
+    padding-bottom: 3rem;
+}
+
+ .pro-card-page{
+  border: 1px solid #DCDCDC;
+  border-radius: 24px;
+  background: #fff;
+  padding: 10px 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+   box-shadow: 0px 3px 25px #00000029;
+}
+.pro-card-page i {
+  font-size: 30px;
+  color: #dcdcdc;
+  cursor: pointer;
+}
+.wishlist_home-page {
+  text-align: right;
+}
+.test{
+width: 100%;
+}
+.product-page {
+  text-align: center;
+}
+.product-page img{
+  width: 250px;
+}
+.prod_nme-page{
+  color: #686868;
+  font-size: 14px;
+  padding-top: 15px;
+  margin-bottom: 20px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.product-page p{
+  color: #686868;
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.product_disc-page svg{
+  width: 20px;
+}
+.procut_price-page {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.procut_price-page h2{
+color: #686868;
+font-size: 25px;
+margin-bottom: 0px;
+text-align: left;
+}
+.procut_price-page span{
+text-decoration: line-through;
+padding-left: 10px;
+  }
+  .procut_price-page p{
+    border: 1px solid #707070;
+    padding: 0px 5px;
+    font-size: 12px;
+    width: 60px;
+    margin: 0px 5px 0px auto;
+  }
+  .pro-card-page:hover {
+   
+    transition: 0.5s;
+  }
+  .porduct-more-page {
+    text-align: center;
+    margin-top: 30px;
+}
+.prod-page-btn{
+  border:none;
+} 
+    .new-input option:hover {
+      background-color: yellow;
+    }
+
+    .wallet-icon{
+      width: 50px;
+      padding-right: 20px;
+    }
+    .col-6-page{
+      display:flex;
+    }
+    .col-6-new{
+      padding-left: 40px;
+    }
+    .prod-page-btn{
+      border:none;
+      border-radius: 10px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      padding: 5px 50px 5px 50px;
+       background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+       color:white;
+    }
+/******End product page*********/
+
+
+ .new-custom-color-input option {
+      color:red;
+      background: #000;
+      border:5px solid rgb(102, 255, 0);
+    }
+
+ /*********CheckoutPage***********/
+ .checkout-top-heading p{
+  font-size: 27px;
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+ }
+ .checkout-background-color{
+  background-color: #F2F2F2;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+ }
+ .display-flex{
+  display: flex;
+ }
+ .checkout-heading{
+  justify-content: space-around;
+}
+
+ .checkout-heading p{
+  padding: 10px;
+  border-radius: 20px 0 0 0 ;
+  font-size: 18px;
+ padding-left: 20px;
+  color:#fff;
+   background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+}
+.checkout-heading p span{
+  float:right;
+}
+.checkout-box{
+  width: 50%;
+  border-radius:20px 0 15px  0;
+  margin-left: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0px 6px 12px #0000004D;
+}
+.checkoutForm{
+  padding: 30px;
+}
+.checkout-btn1{
+  border: none;
+   background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+   color:#fff;
+   padding: 12px;
+   border-radius: 10px;
+   margin-left: 13rem;
+}
+.checkout-form-group{
+  margin-bottom: 20px;
+}
+
+.checkout-form-group-1{
+  margin-bottom: 5px;
+  width: 50%;
+  float:right;
+  padding: 10px;
+}
+.last-info-field{
+  margin-bottom: 20px;
+}
+/*-*********************/
+ .checkout-box-2{
+  width: 40%;
+  border-radius:20px 0 15px  0;
+  margin-left: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0px 6px 12px #0000004D;
+  
+}
+
+ .checkout-row{
+  DISPLAY:FLEX;
+  justify-content: space-around;
+ }
+ .checkout-cross-icon{
+  margin-right: -60px;
+  margin-left: -20px;
+ }
+ .ch-p-1{
+  margin-bottom: 0px;
+ }
+ .ch-p-2{
+  font-size: 15px;
+ }
+ .mh-p-1{
+  color:#08872A;
+  font-size: 20px;
+  margin-bottom: 0;
+ }
+ .mh-p-2{
+  font-size: 13px;
+  color:#C2133C;
+ }
+ .mh-p-2 span{
+  text-decoration: line-through;
+ }
+ .checkout-count{
+  display:flex;
+ }
+ .bt-1{
+  border: 1px solid #8B2E5D ;
+  color:#8B2E5D;
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+ }
+  .bt-2{
+  background:#8B2E5D;
+  padding: 10px;
+  color:white;
+   height: 40px;
+ }
+  .bt-3{
+  border: 1px solid #8B2E5D;
+  padding: 10px;
+   height: 40px;
+   color:#8B2E5D;
+   border-radius: 0px 5px 5px 0;
+   font-weight: bolder;
+ }
+ .ch-hr{
+ margin-left: 25px;
+ width: 90%;
+}
+.checkbox-ch p{
+ color: #8B2E5D;
+ font-size: 12px;
+}
+.checkbox-ch{
+  display: flex;
+  padding-left: 20px;
+  margin-top: 20px;
+} 
+
+.checkbox-ch p{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.ch-left-text{
+    float:right;
+    padding-right: 20px;
+}
+.ch-left-text1{
+  font-size: 15px;
+  margin-bottom: 2px;
+  margin-top: -60px;
+}
+.ch-left-text1{
+  font-size: 12px;
+}
+.ch-input-field-dotted{
+  border: 1px dashed;
+  width: 180px;
+  padding: 10px;
+  margin-bottom:6px;
+}
+.ch-btn-down{
+  border:none;
+  padding: 8px;
+  width: 180px;
+  border-radius: 10px;
+  color:white;
+  background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+  
+}
+.ch-last-box{
+  display: flex;
+  background-color: #F5F5F5;
+  margin-top: 4rem;
+  justify-content: space-between;
+  padding: 7px 30px 0px 20px;
+  font-size: 15px;
+}
+.ch-lest-btn{
+  width: 150px;
+   background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+   color:white;
+   border-radius: 8px;
+   border:none;
+   padding: 10px;
+   margin-left: 10.5rem;
+   margin-top: 15px;
+  }
+
+ /*****End Checkout PAGE **********/

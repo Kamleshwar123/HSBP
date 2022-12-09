@@ -428,6 +428,72 @@ text-decoration: none;
     width: 22rem;
 }
 /****END THANKYOU PAGE-*****/
+
+/******Product page************/
+
+.prod-page-banner{
+    width: 100%;
+    margin-top: 2px;
+}
+/*****End product page*******/
+
+/******Checkout page********/
+.checkout-heading p{
+    font-size: 15px;
+}
+.checkout-background-color{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+.checkout-box{
+    width: 90%;
+    margin-bottom: 40px;
+}
+ .display-flex{
+  display: flex;
+  flex-direction: column;
+ }
+ .checkout-btn1{
+    margin-left: 40px;
+    width: 180px;
+}
+.checkout-box-2{
+    width: 90%;
+}
+.checkout-row{
+   display: block;
+}
+.crossIcon{
+    padding: 0px;
+}
+.checkout-cross-icon{
+        margin-left: 4px;
+}
+.ch-1{
+ margin-left: 10rem;
+     margin-top: -41px;
+}
+.mh-1{
+        margin-left: 19px;
+}
+.checkout-count{
+    float:right;
+        margin-top: -64px;
+    margin-right: 15px;
+}
+
+.ch-left-text{
+        margin-top: 47px;
+}
+.ch-last-box{
+       margin-top: 110px;
+}
+.ch-lest-btn{
+       margin-left: 83px;
+    margin-bottom: 20px;
+}
+/*******End Checkout Page*****/
 }
 @media only screen   
 and (max-device-width : 1400px)   

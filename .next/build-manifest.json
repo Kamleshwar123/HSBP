@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/slot": [
+    "/checkout": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/slot.js"
-    ],
-    "/thankyou": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/thankyou.js"
+      "static/chunks/pages/checkout.js"
     ]
   },
   "ampFirstPages": []

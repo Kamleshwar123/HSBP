@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import Dropdown from "react-bootstrap/Dropdown";
+import FormControl from "react-bootstrap/FormControl";
 
 const addressForm = () => {
   const handleChange = (e) => {
@@ -87,8 +89,12 @@ const addressForm = () => {
                   <div className="form-group">
                     <label>State</label>
                     <br />
-                    <div className="input-group has_post_icon">
-                      <select className="form-control" name="cars">
+                    <div className="input-group custum_select has_post_icon">
+                      <select
+                        className="form-control"
+                        onfocus="this.size=10;"
+                        name="cars"
+                      >
                         <option>---Select--State--</option>
                         <option value="volvo">Jharkhand</option>
                         <option value="saab">Delhi</option>
@@ -97,12 +103,33 @@ const addressForm = () => {
                       </select>
                     </div>
                   </div>
-
+                  <div className="new-input">
+                    <label>new custom</label>
+                    <select
+                      onfocus="this.size=10;"
+                      onchange="this.size=20; this.blur();"
+                    >
+                      <option value="blank">Blank</option>
+                      <option class="white" value="white">
+                        White
+                      </option>
+                      <option class="red" value="red">
+                        Red
+                      </option>
+                      <option class="blue" value="blue">
+                        Blue
+                      </option>
+                    </select>
+                  </div>
                   <div className="form-group">
                     <label>City</label>
                     <br />
                     <div className="input-group has_post_icon">
-                      <select className="form-control" name="city">
+                      <select
+                        className="form-control custom____"
+                        name="city"
+                        onchange="this.blur();"
+                      >
                         <option>---Select--City--</option>
                         <option value="volvo">Jharkhand</option>
                         <option value="saab">Delhi</option>
@@ -121,6 +148,29 @@ const addressForm = () => {
                         onChange={handleChange}
                         // value={values?.Password || ""}
                       /> */}
+                  <div>
+                    <select
+                      className="new-custom-color-input"
+                      onfocus="this.size=10;"
+                    >
+                      <option value="volvo">Volvo</option>
+                      <option value="saab">Saab</option>
+                      <option value="opel">Opel</option>
+                      <option value="audi">Audi</option>
+                      <option value="volvo">Volvo</option>
+                      <option value="saab">Saab</option>
+                      <option value="opel">Opel</option>
+                      <option value="audi">Audi</option>
+                      <option value="volvo">Volvo</option>
+                      <option value="saab">Saab</option>
+                      <option value="opel">Opel</option>
+                      <option value="audi">Audi</option>
+                      <option value="volvo">Volvo</option>
+                      <option value="saab">Saab</option>
+                      <option value="opel">Opel</option>
+                      <option value="audi">Audi</option>
+                    </select>
+                  </div>
 
                   <div className="form-group">
                     <label>Nearby Location</label>
@@ -140,6 +190,7 @@ const addressForm = () => {
 
                   <div className="form-group">
                     <label>Pin Code</label>
+
                     <br />
                     <div className="input-group has_post_icon">
                       <input
