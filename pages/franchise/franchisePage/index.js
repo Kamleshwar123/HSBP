@@ -120,13 +120,16 @@ export default function franchise() {
                   <label for="fname">Date</label>
                   <br />
                   <div className="input-group has_post_icon">
-                    <select className="form-control" name="city">
-                      <option>mm-dd-yyyy</option>
-                      <option value="volvo">Jharkhand</option>
-                      <option value="saab">Delhi</option>
-                      <option value="fiat">Gujrat</option>
-                      <option value="audi">West Bengal</option>
-                    </select>
+                    <input
+                      //  type={show ? "text" : "password"}
+                      className="form-control"
+                      autoComplete="new-off"
+                      placeholder="Enter Email Address"
+                      name="Mobile"
+                      type="date"
+                      onChange={handleChange}
+                      // value={values?.Password || ""}
+                    />
                   </div>
                 </div>
 
@@ -134,13 +137,16 @@ export default function franchise() {
                   <label for="fname">Time</label>
                   <br />
                   <div className="input-group has_post_icon">
-                    <select className="form-control" name="city">
-                      <option>hh/mm/ss</option>
-                      <option value="volvo">Jharkhand</option>
-                      <option value="saab">Delhi</option>
-                      <option value="fiat">Gujrat</option>
-                      <option value="audi">West Bengal</option>
-                    </select>
+                    <input
+                      //  type={show ? "text" : "password"}
+                      className="form-control"
+                      autoComplete="new-off"
+                      placeholder="Enter Email Address"
+                      name="Mobile"
+                      type="time"
+                      onChange={handleChange}
+                      // value={values?.Password || ""}
+                    />
                   </div>
                 </div>
 

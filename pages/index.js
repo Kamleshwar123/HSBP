@@ -5,7 +5,6 @@ import About from "./about";
 import contactform from "./contactform";
 import ProfileForm from "./profileform";
 import FranchisePage from "./franchise";
-import customerForm from "./customerform";
 import customerCareForm from "./customercare";
 import Productdetail from "./productdetails";
 import ProductCart from "./cart";
@@ -16,6 +15,9 @@ import Slot from "./slot";
 import Thankyou from "./thankyou";
 import ProductsPage from "./productpage";
 import Checkout from "./checkout";
+import Login from "./login";
+import OrderDetails from "./orderdetail";
+import OrderPage from "./orderpage";
 
 export default function Home() {
   return (

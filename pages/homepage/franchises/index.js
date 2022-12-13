@@ -11,7 +11,12 @@ const Franchises = () => {
     <div className="container">
       <FranchisesHeading />
       <div className="franch-ban">
-        <Image src={FranchBann} height={"100%"} width={"100%"} />
+        <Image
+          className="franch-img-ban"
+          src={FranchBann}
+          height={"100%"}
+          width={"100%"}
+        />
         <div className="about-franch">
           <h1>
             EVERY THING <br></br>ABOUT FRANCHISING

@@ -74,10 +74,74 @@ section.services {
 .test-bg{
     width: 20px;
   }
+  .franch-cost h2 {
+    font-size: 19px;
+  }
+  .franch-cost p {
+    font-size: 13px;
+}
+.about-franch {
+      width: 200px;
+    margin-top: -100px;
+}    
+.franch-more {
+    position: absolute;
+    right: 8px;
+    bottom: 165px;
+}
+.franch-img-ban{
+    height: 25rem;
+}
+.institute-img-ban{
+    height: 22rem;
+}
+.about-insti p {
+    font-size: 16px;
+}
+.about-insti  {
+  margin-top: -45px;
+}
+
+.about-insti h1 {
+    font-size: 10px;
+}
+.slick-list{
+    height: 18rem;
+}
+.about-franch h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
 
   /*****----------END--------Homepage--------*******/
 
 /*******---------Contact-----Form---------********/
+.form-contact{
+    border-radius: 15px 0 15px 15px;
+    background: white;
+    box-shadow: 0px 0px 15px;
+        width: 333px;
+    margin-left: -110px;
+    /* position: absolute; */
+}
+    
+/* element.style {
+}
+@media only screen and (max-width: 600px)
+.form {
+    width: 340px;
+    margin-left: 5px;
+} */
+.loginForm{
+    padding: 10px;
+}
+
+.contact-form{
+    border-radius: 15px 0 15px 15px;
+    background: white;
+      box-shadow: 0px 0px 15px;
+}
 .form-body{
     margin-left: -10px;
     position:relative;
@@ -101,8 +165,7 @@ width: 360px;
 }
 .form{
     width:340px;
-     position: absolute;
-     margin-left: -112px;
+     margin-left: 5px;
      
 }
 
@@ -112,7 +175,7 @@ width: 360px;
 }
 
 .profile-detail-btn1{
-   margin-left: 15px;
+   margin-left: 4px;
    width: 300px;
     position: relative;
     
@@ -186,9 +249,7 @@ padding-top: 10px;
 .cc-box-body{
   width:100%;
   height: 100%;
-  
- padding: 1rem 2rem;
-      
+ padding: 1rem 2rem;    
 }
 
 
@@ -265,7 +326,7 @@ margin-bottom: 108rem;
 
 /******Payment mode page*********/
 .pay-box{
-    height: 105rem;
+    height: 82rem;
          
 }
 .pay-box-main{
@@ -275,14 +336,14 @@ margin-bottom: 108rem;
 width: 90%;
 height: 25rem;
 margin: 1px 0px   0px  0px ;
-margin-left: -15px;
+margin-left: 11px;
 }
 .pay-box-down{
     width: 90%;
-    margin-left: -0.1rem;
+    margin-left: 0.9rem;
 }
 .pay-btn2{
-    margin-left: 4.5rem;
+    margin-left: 7.5rem;
 }
 .pay-btn1{
   background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
@@ -296,7 +357,7 @@ margin-left: -15px;
   transition: 0.3s;
   font-weight: 100;
   border: none;
-  margin-left: -12px;
+  margin-left: 2px;
   margin-top: 2rem;
 }
 .pay-btn1:hover{
@@ -311,7 +372,7 @@ text-decoration: none;
   width: 90%;
 }
 .app-icons-1{
-    margin-left: -20px;
+    margin-left: 12px;
 }
 
 
@@ -435,6 +496,18 @@ text-decoration: none;
     width: 100%;
     margin-top: 2px;
 }
+.pro-card-page-new{
+    border: 1px solid #DCDCDC;
+    border-radius: 24px;
+    background: #fff;
+    padding: 10px 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+    box-shadow: 0px 3px 25px #00000029;
+}
+    
 /*****End product page*******/
 
 /******Checkout page********/
@@ -457,6 +530,7 @@ text-decoration: none;
  .checkout-btn1{
     margin-left: 40px;
     width: 180px;
+    padding: 10px 10px 10px 20px;
 }
 .checkout-box-2{
     width: 90%;
@@ -494,6 +568,92 @@ text-decoration: none;
     margin-bottom: 20px;
 }
 /*******End Checkout Page*****/
+/*******Login page********/
+.login-background-color{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+.login-box{
+    width: 90%;
+    margin-bottom: 40px;
+}
+ .display-flex{
+  display: flex;
+  flex-direction: column;
+ }
+ .login-btn1{
+    margin-left: 40px;
+    width: 180px;
+    padding: 10px 10px 10px 20px;
+}
+.login-button{
+    width: 270px;
+}
+.mobile-number-input{
+    width: 270px;
+}
+
+/*********End Login Page*******/
+
+/***-------Order Details---*****/
+.od-txt-3{
+  height: 21rem;
+  margin-left: -45px;
+}
+.od-table{
+    width: 100%;
+}
+.order-main-box{
+    display: block;
+}
+.order-left-box{
+    padding-bottom: 30px;
+}
+.order-right-box{
+    padding-bottom: 20px;
+}
+.od-txt-1{
+    margin-right: -20px;
+    padding: 0;
+}
+.od-txt-2{
+    font-size: 20px;
+}
+.od-1{
+    padding:10PX;
+}
+
+.od-txt-4{
+    font-size: 20px;
+}
+.od-txt-cut
+{
+    font-size: 15px;
+}
+/****----orderList*****/
+  .od-txt-1 p{
+    width: 90px;
+     float:right;
+     margin-right: 50px;
+  }
+  .odlist-txt-3{
+    background-color:#F2F2F2;
+  height: 15rem;
+  margin-left: -45px;
+}
+.od-txt-1 p{
+    padding-left: 20px;
+}
+.orderlist-left-box{
+    margin-top: -50px;
+}
+.orderlist-left-box p{
+    font-size: 20px;
+}
+.order-right-box{
+    margin-top: 10px;
+}
 }
 @media only screen   
 and (max-device-width : 1400px)   
@@ -510,7 +670,7 @@ left: 65px;
 width: 315px;
 } 
 .about-insti h1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 .about-insti p {
     font-size: 20px;
@@ -533,5 +693,6 @@ width: 315px;
     margin-top: 10px;
 }
 }
+
 
 

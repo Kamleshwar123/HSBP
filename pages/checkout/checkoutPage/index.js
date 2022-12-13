@@ -44,7 +44,7 @@ const CheckoutPage = () => {
                       autoComplete="new-off"
                       placeholder="10 Digit Mobile No."
                       name="Name"
-                      onChange={handleChange}
+                      // onChange={handleChange}
                       // value={values?.Email || ""}
                     />
                   </div>
@@ -60,7 +60,7 @@ const CheckoutPage = () => {
                       autoComplete="new-off"
                       placeholder="Enter Email Address"
                       name="Email"
-                      onChange={handleChange}
+                      //  onChange={handleChange}
                       // value={values?.Password || ""}
                     />
                   </div>
@@ -105,7 +105,7 @@ const CheckoutPage = () => {
                       autoComplete="new-off"
                       placeholder="DD-MM-YYYY"
                       name="Mobile"
-                      onChange={handleChange}
+                      // onChange={handleChange}
                       // value={values?.Password || ""}
                     />
                   </div>
@@ -122,25 +122,44 @@ const CheckoutPage = () => {
                       autoComplete="new-off"
                       placeholder="HH/MM"
                       name="Mobile"
-                      onChange={handleChange}
+                      // onChange={handleChange}
                       //value={values?.Password || ""}
                     />
                   </div>
                 </div>
 
                 <div className="last-info-field">
-                  <label>Write your own information</label>
+                  <label>Check your payment mode</label>
                   <br />
-                  <div className="input-group has_post_icon">
-                    <textarea
+                  <div className="input-group-has_post_icon-chbox">
+                    <input
                       //  type={show ? "text" : "password"}
-                      className="form-control"
+                      type="checkbox"
+                      className="form-control-chbox"
                       autoComplete="new-off"
-                      placeholder="Enter your own information"
+                      placeholder="HH/MM"
                       name="Mobile"
-                      onChange={handleChange}
+                      // onChange={handleChange}
                       //value={values?.Password || ""}
                     />
+                    <div className="ch-box-div-txt">
+                      <p className="chbox-text">Online Payment</p>
+                    </div>
+                  </div>
+                  <div className="input-group-has_post_icon-chbox-down">
+                    <input
+                      //  type={show ? "text" : "password"}
+                      type="checkbox"
+                      className="form-control-chbox"
+                      autoComplete="new-off"
+                      placeholder="HH/MM"
+                      name="Mobile"
+                      //onChange={handleChange}
+                      //value={values?.Password || ""}
+                    />
+                    <div className="ch-box-div-txt-down">
+                      <p className="chbox-text">Cash (Cash after service)</p>
+                    </div>
                   </div>
                 </div>
                 {/* <input
@@ -253,13 +272,13 @@ const CheckoutPage = () => {
                   <p>Subtotal </p>
                   <p>Product Discount</p>
                   <p>Other Charges</p>
-                  <p> TOTAL</p>
+                  <p className="ch-bold-text"> TOTAL</p>
                 </div>
                 <div className="ch-last-price">
                   <p>4200.00 </p>
                   <p>200.00</p>
                   <p>00.00</p>
-                  <p>4200.00</p>
+                  <p className="ch-bold-text">4200.00</p>
                 </div>
               </div>
               <button className="ch-lest-btn">Process to Pay</button>

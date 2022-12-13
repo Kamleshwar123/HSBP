@@ -18,7 +18,7 @@ const ProductCardPage = (props) => {
     <>
       <div className="col-md-4 col-sm-12">
         <div className="prod-page-banner"></div>
-        <div className="pro-card-page">
+        <div className="pro-card-page-new">
           <div className="wishlist_home-page">
             <i
               className="fa fa-heart"

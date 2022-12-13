@@ -15,7 +15,7 @@ const addressForm = () => {
               <h3>Add Delivery Address</h3>
             </div>
 
-            <div className="form">
+            <div className="form-contact">
               <div className="form-head">
                 <p>Contact Details</p>
               </div>
@@ -103,24 +103,7 @@ const addressForm = () => {
                       </select>
                     </div>
                   </div>
-                  <div className="new-input">
-                    <label>new custom</label>
-                    <select
-                      onfocus="this.size=10;"
-                      onchange="this.size=20; this.blur();"
-                    >
-                      <option value="blank">Blank</option>
-                      <option class="white" value="white">
-                        White
-                      </option>
-                      <option class="red" value="red">
-                        Red
-                      </option>
-                      <option class="blue" value="blue">
-                        Blue
-                      </option>
-                    </select>
-                  </div>
+
                   <div className="form-group">
                     <label>City</label>
                     <br />
@@ -148,29 +131,6 @@ const addressForm = () => {
                         onChange={handleChange}
                         // value={values?.Password || ""}
                       /> */}
-                  <div>
-                    <select
-                      className="new-custom-color-input"
-                      onfocus="this.size=10;"
-                    >
-                      <option value="volvo">Volvo</option>
-                      <option value="saab">Saab</option>
-                      <option value="opel">Opel</option>
-                      <option value="audi">Audi</option>
-                      <option value="volvo">Volvo</option>
-                      <option value="saab">Saab</option>
-                      <option value="opel">Opel</option>
-                      <option value="audi">Audi</option>
-                      <option value="volvo">Volvo</option>
-                      <option value="saab">Saab</option>
-                      <option value="opel">Opel</option>
-                      <option value="audi">Audi</option>
-                      <option value="volvo">Volvo</option>
-                      <option value="saab">Saab</option>
-                      <option value="opel">Opel</option>
-                      <option value="audi">Audi</option>
-                    </select>
-                  </div>
 
                   <div className="form-group">
                     <label>Nearby Location</label>

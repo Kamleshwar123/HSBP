@@ -2,5 +2,16 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/checkout": "pages/checkout.js"
+  "/franchise": "pages/franchise.js",
+  "/faq": "pages/faq.js",
+  "/orderdetail": "pages/orderdetail.js",
+  "/slot": "pages/slot.js",
+  "/productpage": "pages/productpage.js",
+  "/customercare": "pages/customercare.js",
+  "/contactform": "pages/contactform.js",
+  "/login": "pages/login.js",
+  "/checkout": "pages/checkout.js",
+  "/feedback": "pages/feedback.js",
+  "/thankyou": "pages/thankyou.js",
+  "/": "pages/index.js"
 }

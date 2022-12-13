@@ -1014,7 +1014,12 @@ width: 200px;
 
 /**------Contact-------Details---------------**/
 
-
+.form-contact{
+    border-radius: 15px 0 15px 15px;
+    background: white;
+    box-shadow: 0px 0px 15px;
+    /* position: absolute; */
+}
 .form-body{
   width:100%;
   height: 100%;
@@ -1523,13 +1528,13 @@ text-decoration: none;
   padding: 10px;
   font-family: Poppins, Medium;
   font-weight: 100;
-  font-size: 30px;
+  font-size: 26px;
   margin-left: 1.5rem;
 }
 .pay-box-main{
   background: #F2F2F2;
   padding-top: 35px;
-  padding-left: 30px;
+  padding-left: 10px;
   margin-top: -15px;
 
 }
@@ -1543,21 +1548,21 @@ text-decoration: none;
 }
 .radio-txt{
   font-family: Poppins, Medium;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 1rem;
 }
 .txt{
-  font-size: 20px;
+  font-size: 15px;
   padding-left: 2.8rem;
 }
 .txt-2{
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 2.8rem;
 }
 
 .span-color{
   color :#0B3ECF;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .pay-1{
@@ -1578,11 +1583,11 @@ text-decoration: none;
 }
 .pay-box-title{
   color: black;
-  font-size: 24px;
+  font-size: 21px;
 }
 .pay-box-down {
   color: #605F5F;
-  font-size: 22px;
+  font-size: 17px;
 }
 
 .pay-box-down hr{
@@ -1619,19 +1624,19 @@ text-decoration: none;
 
 .pay-address{
  box-shadow: 0px 5px 15px #00000066;
-  width: 32%;
-  height: 35rem;
+  width: 31%;
+  height: 22rem;
   padding: 2rem;
   padding-right: 4rem;
   background: #fff;
   border-radius: 25px;
-  margin-top: -50rem;
+  margin-top: -43rem;
   margin-left: 47rem;
   position:absolute;
 }
 .pay-address span{
   font-family: Poppins, Regular;
-  font-size: 24px;
+  font-size: 21px;
 }
 .pay-address p{
   margin-top: 1rem;
@@ -2228,7 +2233,6 @@ padding-left: 10px;
   margin-left: 1.5rem;
   background-color: #fff;
   box-shadow: 0px 6px 12px #0000004D;
-  
 }
 
  .checkout-row{
@@ -2344,5 +2348,345 @@ padding-left: 10px;
    margin-left: 10.5rem;
    margin-top: 15px;
   }
-
+  .ch-bold-text{
+    font-weight: bolder;
+  }
+  .form-control-chbox{
+    padding: 5px;
+  }
+  .chbox-text{
+    opacity:0.5;
+  }
+ .input-group-has_post_icon-chbox{
+  display:flex;
+  padding: 0;
+ }
+ .input-group-has_post_icon-chbox-down{
+    display:flex;
+  padding: 0;
+  margin-top: -20px;
+ }
+ .ch-box-div-txt{
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 15px;
+ }
+ .ch-box-div-txt-down{
+  padding-top: 16px;
+  padding-left: 10px;
+ }
  /*****End Checkout PAGE **********/
+ /****Login Page***********/
+ .form-control-otp{
+  width: 40px;
+  margin-right: 10px;
+ }
+
+ .login-background-color{
+  background-color: #F2F2F2;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-top: 20px;
+  margin-top: 10px;
+ }
+ .display-flex{
+  display: flex;
+ }
+ .login-heading{
+  display: flex;
+  border-bottom:1px solid grey;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.img-box{
+  margin-top: 12px;
+}
+
+ .login-heading p{
+  padding: 10px;
+  border-radius: 20px 0 0 0 ;
+  font-size: 18px;
+ padding-left: 20px;
+}
+.login-heading p span{
+  float:right;
+}
+.login-box{
+  margin-top: 3rem;
+  width: 50%;
+  height: 34rem;
+  border-radius:20px 0 15px  0;
+  margin-left: 1.5rem;
+  background-color: #F2F2F2;
+  box-shadow: 0px 6px 12px #0000004D;
+}
+.mobile-txt{
+  font-size: 15px;
+}
+.loginForm{
+  padding: 30px;
+}
+.login-btn1{
+  border: none;
+   background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+   color:#fff;
+   padding: 9px;
+   width: 120px;
+   border-radius: 10px;
+   margin-left: 13rem;
+   margin-left: 5px;
+   font-size: 13px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.login-form-group{
+  margin-bottom: 20px;
+}
+
+.login-form-group-1{
+  margin-bottom: 5px;
+  width: 50%;
+  float:right;
+  padding: 10px;
+}
+.last-info-field{
+  margin-bottom: 20px;
+}
+.mobile-number-input{
+   width: 300px;
+   padding: 6px;
+   margin-top: 10px;
+}
+.login-button{
+  border: none;
+  color:white;
+  background-color: #2A3133;
+  width: 300px;
+  padding: 7px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.opt-small-btn{
+  border:none;
+  color:#004DC1;
+  font-size: 13px;
+}
+.login-form-group-down{
+  display: flex;
+
+}
+.otp-down-txt p{
+  font-size: 13px;
+}
+.input-group-new{
+ width: 352px;
+}
+.resend-otp{
+  font-size: 12px;
+      margin-bottom: -18px;
+}
+.opt-small-btn{
+  margin-top: -50px;
+}
+/*END LOGIN PAGE*/
+/*-----Order Detail Page------*/
+
+.order-left-box h3{
+  color:#2A3133;
+  font-family: Poppins, Medium;
+}
+
+.p1{
+  font-family: Poppins;
+  font-size: 26px;
+  color:#2A3133;
+}
+.p2{
+    font-family: Poppins, Regular;
+  font-size: 22px;
+}
+.P3{
+      font-family: Poppins, Regular;
+  font-size: 22px;
+}
+.P4{
+      font-family: Poppins, Regular;
+  font-size: 30px;
+  
+}
+.P5{
+      font-family: Poppins, Regular;
+  font-size: 22px;
+}
+.P6{
+      font-family: Poppins, Regular;
+  font-size: 22px;
+}
+
+.order-right-box P{
+  font-size: 20px;
+  font-size: Poppins;
+}
+
+.order-main-box{
+  display: flex;
+  justify-content: space-between;
+}
+.orderpage-btn-1{
+    background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0%;
+  color: #fff;
+  border:none;  
+  padding: 10px; 
+  margin-right:20px;
+  border-radius: 7px;
+}
+.orderpage-btn-2{
+   background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0%;
+  color: #fff;
+  border:none; 
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.order-details-list table{
+  width: 100%;
+}
+.oredrpage-heading{
+  background: transparent linear-gradient(250deg, #993680 0%, #2F1A59 81%) 0% 0%;
+  color:white;
+  width: 100%;
+}
+/* .od-1{
+padding-left: 90px;
+padding-right: 30rem;
+}
+.od-2{
+  padding-right: 5rem;
+} .od-3{
+  padding-right: 10rem;
+} */
+.od-img-1{
+  padding: 10px;
+}
+.od-underline{
+  width: 100%;
+  
+}
+/*****************/
+.od-head{
+  /* display: flex;
+  flex-direction: row; */
+}
+.od-tr{
+  border-bottom: 1px solid #000;
+}
+.od-txt-1{
+  width: 37rem;
+  background: #F2F2F2;
+}
+.od-txt-2{
+  color:#C2133C;
+  font-size: 28px;
+   background: #F2F2F2;
+}
+.od-txt-3{
+  display:flex;
+  background: #F2F2F2;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-left: 50px;
+  height: 10.5rem;
+}
+.od-txt-4{
+  color:#08872A;
+  font-size: 28px;
+   background: #F2F2F2;
+}
+.od-txt-cut{
+  text-decoration: line-through;
+  font-size: 20px;
+}
+.od-1-btn{
+  border:1px solid #8B2E5D;
+  color:#8B2E5D;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 7px 0 0 7px;
+}
+.od-2-btn{
+  border:1px solid #8B2E5D;
+  color:#8B2E5D;
+  font-weight: 900;
+  padding: 10px;
+  border-radius:0  7px  7px 0;
+}
+.od-txt-bgcolor{
+  background:#8B2E5D ;
+  padding: 10px;
+  padding-top: 20px;
+  color:white;
+}
+ .od-count{
+  display:flex;
+ }
+ .od-bt-1{
+  border: 1px solid #8B2E5D ;
+  color:#8B2E5D;
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+ }
+  .od-bt-2{
+  background:#8B2E5D;
+  padding: 10px;
+  color:white;
+   height: 40px;
+ }
+  .od-bt-3{
+  border: 1px solid #8B2E5D;
+  padding: 10px;
+   height: 40px;
+   color:#8B2E5D;
+   border-radius: 0px 5px 5px 0;
+   font-weight: bolder;
+ }
+.od-1{
+  background: #2F1A59;
+  color:white;
+  padding: 10px;
+  padding-left: 80px;
+}
+.od-2{
+   background: #2F1A59;
+  color:white;
+}
+.od-3{
+     background: #2F1A59;
+  color:white;
+}
+.od-4{
+     background: #2F1A59;
+  color:white;
+}
+/******OrderList*****/
+.orderlist-left-box{
+    padding-top: 80px;
+  }
+
+  .orderlist-left-box button{
+    margin-left: 90px;
+    margin-bottom: 20px;
+  }
+ 
+  .od-txt-1 p{
+    width: 400px;
+     float:right;
+     margin-right: 50px;
+  }
+   .odlist-txt-3{
+    background-color:#F2F2F2;
+  }
+  .orderlist-left-box p{
+    font-size: 20px;
+}
+
