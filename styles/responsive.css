@@ -106,7 +106,10 @@ section.services {
     font-size: 10px;
 }
 .slick-list{
-    height: 18rem;
+   height: 219px;
+}
+.new-banner{
+    height: 200px;
 }
 .about-franch h1 {
     font-size: 35px;

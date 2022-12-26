@@ -1136,7 +1136,6 @@ height: 200px;
 }
 .service-new{
   padding: 0;
-  margin: 0;
 }
 
 .salon-sl-btn{
@@ -1152,7 +1151,7 @@ height: 200px;
     position: fixed;
     border: 1px solid red;
   }
- 
+
 
 /* .products-home-row{
   border:1px solid red;

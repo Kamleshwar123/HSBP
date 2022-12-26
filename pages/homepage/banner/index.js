@@ -13,7 +13,7 @@ export default function BannerSlider() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className={"new-banner"}>
       <div className="home-banner-img">
         <img
           src={"assets/images/banner_1.webp"}
