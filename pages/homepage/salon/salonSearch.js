@@ -56,24 +56,42 @@ function SalonSearch() {
 
   return (
     <>
-    <div className="serch-text">
-<h1>Discover the best salons near you</h1>
+      <div className="serch-text">
+        <h1>Discover the best salons near you</h1>
       </div>
-      <div className="salon-search">
-              <ReactSearchAutocomplete
-                  placeholder={"Search City"}
-                  items={items}
-                  onSearch={handleOnSearch}
-                  onHover={handleOnHover}
-                  onSelect={handleOnSelect}
-                  onFocus={handleOnFocus}
-                  onClear={handleOnClear}
-                  styling={{ zIndex: 4 }}
-                 />
-              <div className="salon-search btn">
-                  <Link href={"#"}>SEARCH</Link>
-              </div>
-          </div></>
+      <div className="salon-search-flex">
+        <div className="salon-search">
+          <ReactSearchAutocomplete
+            placeholder={"Search By City"}
+            items={items}
+            onSearch={handleOnSearch}
+            onHover={handleOnHover}
+            onSelect={handleOnSelect}
+            onFocus={handleOnFocus}
+            onClear={handleOnClear}
+            styling={{ zIndex: 4 }}
+          />
+          <div className="salon-search btn">
+            <Link href={"#"}>SEARCH</Link>
+          </div>
+        </div>
+        <div className="salon-search">
+          <ReactSearchAutocomplete
+            placeholder={"Search By City"}
+            items={items}
+            onSearch={handleOnSearch}
+            onHover={handleOnHover}
+            onSelect={handleOnSelect}
+            onFocus={handleOnFocus}
+            onClear={handleOnClear}
+            styling={{ zIndex: 4 }}
+          />
+          <div className="salon-search btn">
+            <Link href={"#"}>SEARCH</Link>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 

@@ -18,6 +18,7 @@ import Checkout from "./checkout";
 import Login from "./login";
 import OrderDetails from "./orderdetail";
 import OrderPage from "./orderpage";
+import BeautyService from "./beautyservice";
 
 export default function Home() {
   return (

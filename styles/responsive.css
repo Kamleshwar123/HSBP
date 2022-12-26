@@ -112,8 +112,33 @@ section.services {
     font-size: 35px;
     font-weight: 600;
 }
+.testing-img1{
+    margin-right: -60px;
+}
+.testi-img1{
+    margin-right: -55px;
+}
 
-
+.slider-salon-bx{
+    height: 300px;
+}
+.slider-salon-bx{
+      background: #fff;
+    border-radius: 25px;
+    position: relative;
+    width: 83%;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    height: 500px;
+    box-shadow: 2px 10px 10px 0px #00000029;
+    position: relative;
+}
+.testi-bann{
+    height: 300px;
+}
+.new-testimonial-img{
+    margin-right: 10px;
+}
   /*****----------END--------Homepage--------*******/
 
 /*******---------Contact-----Form---------********/
@@ -184,6 +209,21 @@ width: 360px;
     float: left;
 }
 
+/* .service-bg{
+} */
+.service-new{
+    height: 650px;
+}
+.slick-list{
+    height: 640px;
+    width: 480px;
+}
+.service-bg-new1{
+    height: 530px;;
+}
+.new-pkg-img{
+    margin-left: -50px;
+}
 /**--Profile-Page-***/
 
 
@@ -221,7 +261,6 @@ padding-top: 10px;
 .form-1{
         width: 340px;
     position: absolute;
-    
     margin-left: -7rem;
     background: white;
         border-radius: 20px 0 20px 20px;
@@ -233,6 +272,27 @@ padding-top: 10px;
 }
 .form-group{
     width: 100%;
+}
+.salon-search-flex{
+    display:block;
+    width: 360px;
+    margin-left: -5px;
+    padding:0px;
+
+}
+.salon-search{
+    width: 100%;
+}
+.salon-box {
+margin-top: 20px;
+margin-left: 35px;
+ }
+ .bookappoint_con {
+ 
+    margin-top: -37px;
+}
+.img-appoint{
+    height: 220px;
 }
 
 /***-------profile----End--------**********/
